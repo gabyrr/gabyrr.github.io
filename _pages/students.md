@@ -1,6 +1,10 @@
 ---
 permalink: /students/
+layout: single
 title: "Students"
+#author_profile: false
+#classes: wide
+
 ---
 
 ## Master degree students

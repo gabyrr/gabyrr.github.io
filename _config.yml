@@ -23,7 +23,10 @@ twitter_username: cafe_con_pan
 github_username: gabyrr
 minimal_mistakes_skin: "dow" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-search: true
+# show master head
+show_header: false
+
+search: false
 
 # Build settings
 markdown: kramdown
@@ -63,19 +66,19 @@ author:
   name   : "Gabriela Ramírez de la Rosa"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/cafe_con_pan"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/gabyrr"
-    - label: "Google Scholar"
-      icon: "fab fa-fw fa-google"
-      url: "https://scholar.google.co.uk/citations?user=zdxJn8QAAAAJ"
+  #links:
+  #  - label: "Website"
+  #    icon: "fas fa-fw fa-link"
+  #    url: "https://"
+  #  - label: "Twitter"
+  #    icon: "fab fa-fw fa-twitter-square"
+  #    url: "https://twitter.com/cafe_con_pan"
+  #  - label: "GitHub"
+  #    icon: "fab fa-fw fa-github"
+  #    url: "https://github.com/gabyrr"
+  #  - label: "Google Scholar"
+  #    icon: "fab fa-fw fa-google"
+  #    url: "https://scholar.google.co.uk/citations?user=zdxJn8QAAAAJ"
 
 footer:
   links:
@@ -111,6 +114,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _nav
+  - scope:
+      path: ""
+      type: page
+    values:
+      sidebar:
+        nav: "sidemain"
 
 category_archive:
   type: liquid

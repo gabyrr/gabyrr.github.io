@@ -1,6 +1,10 @@
 ---
 permalink: /research/
+layout: single
 title: "Research"
+#author_profile: false
+#classes: wide
+
 ---
 
 ## Current research

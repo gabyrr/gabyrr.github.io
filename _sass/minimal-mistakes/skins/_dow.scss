@@ -1,23 +1,155 @@
 /* ==========================================================================
-   dow skin
+   dow skin (bicolor version)
+   For more default variable definitions, look into _variables.scss
    ========================================================================== */
 
 /* Colors */
-$background-color: #002b36 !default;
-$text-color: #93a1a1 !default;
-$muted-text-color: #393e46 !default;
-$primary-color: #0092ca !default;
+$color-base-00: #657b83 !default;
+$color-base-02: #073642 !default;
+$color-base-1: #93a1a1 !default;
+$color-base-01: #002b36 !default;
+$color-base-3: #fff !default;
+$color-base-03: #fdf6e3 !default;
+
+$color-blue-1: #268bd2 !default;
+$color-magenta-1: #d33682 !default;
+$color-cyan-1: #2aa198 !default;
+$color-violet-1: #6c71c4 !default;
+
+$background-color: $color-base-02 !default;
+$text-color: $color-base-01 !default;
+$muted-text-color: $color-base-1 !default;
+//$primary-color: #0092ca !default;
 $border-color: mix(#fff, #393e46, 75%) !default;
-$footer-background-color: $primary-color !default;
+$footer-background-color: $color-base-01 !default;
 $link-color: #393e46 !default;
 $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: $text-color !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
+/* Fonts*/
+
+//$doc-font-size: 14 !default;
+//$paragraph-indent: false !default; // true, false (default)
+//$indent-var: 1.4em !default;
+
+$serif: Georgia, Times, serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
+/*navigation fonts*/
+$sans-serif-narrow: $sans-serif !default;
+//$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+
+$global-font-family: $sans-serif !default;
+$header-font-family: $sans-serif !default;
+$caption-font-family: $sans-serif !default;
+
+$factor-font: 0.9 !default;
+
+$type-size-1: calc(2.441em * #{$factor-font}) !default; 
+$type-size-2: calc(1.953em * #{$factor-font}) !default; 
+$type-size-3: calc(1.563em * #{$factor-font}) !default; 
+$type-size-4: calc(1.25em * #{$factor-font}) !default; 
+$type-size-5: calc(1em * #{$factor-font}) !default; 
+$type-size-6: calc(0.75em * #{$factor-font}) !default; 
+$type-size-7: calc(0.6875em * #{$factor-font}) !default; 
+$type-size-8: calc(0.625em * #{$factor-font}) !default; 
+
+/* tweaks to some layouts*/
+.page, .archive{
+  background-color: $color-base-3 !important;
+  padding: 0.5em 1.5em 0.5em 1.5em !important;
+}
+
+.page__title{
+  padding-top: 1.0em;
+  padding-bottom: 1.0em;
+}
+
+.page{
+  height: 100% ;
+}
+
 .page__footer {
+  background-color: #073642 !important;
   color: #fff !important; // override
 }
 
 .page__footer-follow .social-icons .svg-inline--fa {
   color: inherit;
 }
+
+.archive{
+  margin-top: 0em !important;
+  margin-bottom: 0em !important;
+}
+
+.archive h1{
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+/* nav items*/
+.sidebar.sticky{
+    //background-color: $color-base-01 !important;
+    color: #fff !important;
+}
+
+.sidebar.sticky{
+    // removes the transiton when hovering the sidebar
+    // if set to opace remove the transition 
+    opacity: 1.0;
+}
+
+.nav__sub-title{
+    border-bottom: 0px solid #fff !important;
+}
+
+.nav__items{
+    font-size: $type-size-2 !important;
+    color: $color-magenta-1 !important;
+}
+
+/*links*/
+//$masthead-link-color: $primary-color !default;
+//$masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
+//$navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
+
+/*transitions*/
+$global-transition: all 0.2s ease-in-out !default;
+//$intro-transition: intro 0.3s both !default;
+
+// for the navigation highlight animation
+.sidebar.sticky .nav__sub-title{
+  //opacity: 0.75;
+  
+  display: inline-block;
+  //-webkit-transition: background-color 0.3s;
+  //transition: background-color 0.3s;
+}
+
+.sidebar.sticky .nav__sub-title:hover{
+  //opacity: 1;
+  //width: 50%;
+  
+  //background-color: $color-magenta-1;  
+  //color: #fff;
+}
+
+.sidebar.sticky a{
+  border-bottom: 0px solid $color-magenta-1;
+  //background-color: $color-magenta-1;  
+  -webkit-transition: border-bottom 0.3s;
+  transition: border-bottom 0.3s;
+  
+}
+
+.sidebar.sticky a:hover{
+  border-bottom: 5px solid $color-magenta-1;
+  //color: #fff;
+}
+
+
+
+
