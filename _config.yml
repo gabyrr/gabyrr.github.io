@@ -64,7 +64,7 @@ plugins:
 
 author:
   name   : "Gabriela Ramírez de la Rosa"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/bio-gaby.png" #"/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   #links:
   #  - label: "Website"

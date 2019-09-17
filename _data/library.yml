@@ -1,0 +1,242 @@
+---
+references:
+- id: Real-FloresEtal2017
+  type: paper-conference
+  author:
+  - family: Real-Flores
+    given: Gerardo
+  - family: García-Mendoza
+    given: Betzabet
+  - family: Calderón-Casanova
+    given: Ester
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  - family: Villatoro-Tello
+    given: Esaú
+  issued:
+  - year: 2017
+  title: Generación y enriquecimiento automático de recursos léxicos para el análisis
+    de sentimientos
+  container-title: Research in computing science
+  page: 0-1
+  status: Accepted
+  URL: resources/RecursoLexicoAnalisisSentimientos_COMIA_17.pdf
+
+- id: Luna-TlatelpaEtal2017
+  type: paper-conference
+  author:
+  - family: Luna-Tlatelpa
+    given: Leticia
+  - family: Villatoro-Tello
+    given: Esaú
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  - family: Rivero-Moreno
+    given: Carlos J.
+  issued:
+  - year: 2017
+  title: Resúmenes de múltiples documentos guiados por consulta empleando representaciones
+    distribucionales
+  container-title: Research in computing science
+  page: 0-1
+  status: Accepted
+  URL: resources/ResumenesAutomaticosTCOR_COMIA17.pdf
+
+- id: Nunez-ReyesEtal2016
+  type: paper-conference
+  author:
+  - family: Nuñez-Reyes
+    given: Alba
+  - family: Villatoro-Tello
+    given: Esaú
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  - family: Sánchez-Sánchez
+    given: Christian
+  issued:
+  - year: 2016
+    month: 11
+    day: 25
+  title: A compact representation for cross-domain short text clustering
+  container-title: LNAI. Proceedings of 15th mexican international conference on artificial
+    intelligence
+  publisher: Springer
+  publisher-place: Cancún, México
+  status: Accepted
+
+- id: Callejas-RodriguezEtal2016
+  type: chapter
+  author:
+  - family: Callejas-Rodríguez
+    given: Angel
+  - family: Villatoro-Tello
+    given: Esaú
+  - family: Meza
+    given: Ivan
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  editor:
+  - family: Sojka
+    given: Petr
+  - family: Horák
+    given: Aleš
+  - family: Kopeček
+    given: Ivan
+  - family: Pala
+    given: Karel
+  issued:
+  - year: 2016
+    month: 9
+    day: 29
+  title: 'From dialogue corpora to dialogue systems: Generating a chatbot with teeneger
+    personality for preventing cyber-pedophilia'
+  title-short: From dialogue corpora to dialogue systems
+  container-title: 'Text, speech, and dialogue: 19th international conference, tsd
+    2016, brno, czech republic, september 12-16, 2016, proceedings'
+  publisher: Springer International Publishing
+  publisher-place: Cham
+  page: 531-53
+  URL: '"http://dx.doi.org/10.1007/978-3-319-45510-5_61"'
+  ISBN: 978-3-319-45510-5
+
+- id: GarciarenaEtal2016
+  type: paper-conference
+  author:
+  - family: Ucelay
+    given: Ma. José Garciarena
+  - family: Villegas
+    given: Ma. Paula
+  - family: Funez
+    given: Dario G.
+  - family: Cagnina
+    given: Leticia C.
+  - family: Errecalde
+    given: Marcelo L.
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  - family: Villatoro-Tello
+    given: Esau
+  issued:
+  - year: 2016
+    month: 9
+    day: 20
+  title: Profile-based approach for age and gender identification. Notebook for pan
+    at clef 2016
+  container-title: Working notes of clef 2016 - conference and labs of the evaluation
+    forum
+  publisher: CEUR Workshop proceedings
+  publisher-place: Evora, Portugal
+  page: 864-873
+  volume: '1609'
+  URL: '"http://ceur-ws.org/Vol-1609/16090864.pdf"'
+
+- id: Villatoro-TelloEtal2016
+  type: chapter
+  author:
+  - family: Villatoro-Tello
+    given: Esaú
+  - family: Anguiano
+    given: Emmanuel
+  - family: Montes-y-Gómez
+    given: Manuel
+  - family: Villaseñor-Pineda
+    given: Luis
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  editor:
+  - family: Montes y Gómez
+    given: Manuel
+  - family: Escalante
+    given: Hugo Jair
+  - family: Segura
+    given: Alberto
+  - family: Murillo
+    given: Juan de Dios
+  issued:
+  - year: 2016
+    month: 11
+    day: 23
+  title: Enhancing semi-supevised text classification using document summaries
+  container-title: 'Advances in artificial intelligence - iberamia 2016: 15th ibero-american
+    conference on ai, san josé, costa rica, november 23-25, 2016, proceedings'
+  publisher: '"Springer International Publishing"'
+  publisher-place: '"Cham"'
+  page: '"115-126"'
+  URL: '"http://dx.doi.org/10.1007/978-3-319-47955-2_10"'
+  DOI: '"10.1007/978-3-319-47955-2_10"'
+  ISBN: '"978-3-319-47955-2"'
+
+- id: Ramirez-de-la-Rosa2014
+  type: chapter
+  author:
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  - family: Villatoro-Tello
+    given: Esaú
+  - family: Jiménez-Salazar
+    given: Héctor
+  - family: Sánchez-Sánchez
+    given: Christian
+  editor:
+  - family: Gelbukh
+    given: Alexander
+  - family: Espinoza
+    given: Félix Castro
+  - family: Galicia-Haro
+    given: Sofía N.
+  issued:
+  - year: 2014
+  title: Towards automatic detection of user influence in twitter by means of stylistic
+    and behavioral features
+  container-title: 'Human-inspired computing and its applications: 13th mexican
+    international conference on artificial intelligence, micai 2014, tuxtla gutiérrez,
+    mexico, november 16-22, 2014. Proceedings, part i'
+  publisher: Springer International Publishing
+  page: 245-256
+  URL: http://dx.doi.org/10.1007/978-3-319-13647-9_23
+  DOI: 10.1007/978-3-319-13647-9_23
+  ISBN: 978-3-319-13647-9
+
+- id: Ramirez-de-la-Rosa2012
+  type: article-journal
+  author:
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  - family: Montes-y-Gómez
+    given: Manuel
+  - family: Solorio
+    given: Thamar
+  - family: Villaseñor-Pineda
+    given: Luis
+  issued:
+  - year: 2012
+  title: 'A document is known by the company it keeps: Neighborhood consensus for
+    short text categorization'
+  title-short: A document is known by the company it keeps
+  container-title: Language Resources and Evaluation
+  page: 127-149
+  volume: '47'
+  issue: '1'
+  abstract: During the last decades the Web has become the greatest repository of
+    digital information. In order to organize all this information, several text categorization
+    methods have been developed, achieving accurate results in most cases and in very
+    different domains. Due to the recent usage of Internet as communication media,
+    short texts such as news, tweets, blogs, and product reviews are more common every
+    day. In this context, there are two main challenges; on the one hand, the length
+    of these documents is short, and therefore, the word frequencies are not informative
+    enough, making text categorization even more difficult than usual. On the other
+    hand, topics are changing constantly at a fast rate, causing the lack of adequate
+    amounts of training data. In order to deal with these two problems we consider
+    a text classification method that is supported on the idea that similar documents
+    may belong to the same category. Mainly, we propose a neighborhood consensus classification
+    method that classifies documents by considering their own information as well
+    as information about the category assigned to other similar documents from the
+    same target collection. In particular, the short texts we used in our evaluation
+    are news titles with an average of 8 words. Experimental results are encouraging;
+    they indicate that leveraging information from similar documents helped to improve
+    classification accuracy and that the proposed method is especially useful when
+    labeled training resources are limited.
+  URL: http://dx.doi.org/10.1007/s10579-012-9192-1
+  DOI: 10.1007/s10579-012-9192-1
+  ISSN: 1574-0218
+...
