@@ -43,10 +43,14 @@ layout: default
           </aside>
         {% endif %}
         {{ content }}
-        
+
         <div class="publications_list">
           <div class="publications_section">
+          {% assign years = "2019, 2018, 2017, 2016, 2015, 2014, 2013, 2011, 2010" | split: ", " %}
+          {% for year in years%}
+           <h3>{{year}}</h3>
           {% for bibitem in site.data.library.references %}
+          {% if year == bibitem.issued[0].year %}
             <div class="publications_item">
                 <span class="publications_item-title"> {{bibitem.title}}. </span>
                 <span class="publications_item-authors">
@@ -54,16 +58,16 @@ layout: default
                     <span class="publications_item-author">{{bibauthor.family}} {{bibauthor.given}}, </span>
                 {% endfor %}
                 </span>
-                
+
                 {% if bibitem.type == "paper-conference" %}
                 <span class="publications_item-conference"> {{bibitem.container-title }}</span>
                 {% endif %}
-                
+
                 {% if bibitem.type == "article-journal" %}
                 <span class="publications_item-journal"> {{bibitem.container-title }}</span>
                 <span class="publications_item-journal-details"> vol. {{bibitem.volume}}, issue {{bibitem.issue}} </span>
                 {% endif %}
-                
+
                 {% if bibitem.type == "chapter" %}
                 <span class="publications_item-chapterbook"> {{bibitem.container-title }}</span>
                 {% endif %}
@@ -71,7 +75,7 @@ layout: default
                 {% if bibitem.page%}
                 <span class="publications_item-page">, pp. {{bibitem.page}}  </span>
                 {% endif %}
-                
+
                 {% if bibitem.issued %}
                 <span class="publications_item-year">, {{ bibitem.issued[0].year }}.  </span>
                 {% endif %}
@@ -82,12 +86,14 @@ layout: default
 
 
             </div>
+          {% endif %}
+          {% endfor %}
           {% endfor %}
           </div>
         </div>
-        
+
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-      </section>            
+      </section>
 
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
