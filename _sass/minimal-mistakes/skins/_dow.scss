@@ -15,8 +15,9 @@ $color-blue-1: #268bd2 !default;
 $color-magenta-1: #d33682 !default;
 $color-cyan-1: #2aa198 !default;
 $color-violet-1: #6c71c4 !default;
+$color-gray-1: #333745 !default;
 
-$background-color: $color-base-02 !default;
+$background-color: $color-base-3 !default;
 $text-color: $color-base-01 !default;
 $muted-text-color: $color-base-1 !default;
 //$primary-color: #0092ca !default;
@@ -34,7 +35,7 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 //$indent-var: 1.4em !default;
 
 $serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Montserrat", "Raleway","Roboto", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 /*navigation fonts*/
@@ -47,14 +48,14 @@ $caption-font-family: $sans-serif !default;
 
 $factor-font: 0.9 !default;
 
-$type-size-1: calc(2.441em * #{$factor-font}) !default; 
-$type-size-2: calc(1.953em * #{$factor-font}) !default; 
-$type-size-3: calc(1.563em * #{$factor-font}) !default; 
-$type-size-4: calc(1.25em * #{$factor-font}) !default; 
-$type-size-5: calc(1em * #{$factor-font}) !default; 
-$type-size-6: calc(0.75em * #{$factor-font}) !default; 
-$type-size-7: calc(0.6875em * #{$factor-font}) !default; 
-$type-size-8: calc(0.625em * #{$factor-font}) !default; 
+$type-size-1: calc(2.441em * #{$factor-font}) !default;
+$type-size-2: calc(1.953em * #{$factor-font}) !default;
+$type-size-3: calc(1.563em * #{$factor-font}) !default;
+$type-size-4: calc(1.25em * #{$factor-font}) !default;
+$type-size-5: calc(1em * #{$factor-font}) !default;
+$type-size-6: calc(0.75em * #{$factor-font}) !default;
+$type-size-7: calc(0.6875em * #{$factor-font}) !default;
+$type-size-8: calc(0.625em * #{$factor-font}) !default;
 
 /* tweaks to some layouts*/
 .page, .archive{
@@ -72,7 +73,7 @@ $type-size-8: calc(0.625em * #{$factor-font}) !default;
 }
 
 .page__footer {
-  background-color: #073642 !important;
+  background-color: $color-gray-1 !important;
   color: #fff !important; // override
 }
 
@@ -93,12 +94,12 @@ $type-size-8: calc(0.625em * #{$factor-font}) !default;
 /* nav items*/
 .sidebar.sticky{
     //background-color: $color-base-01 !important;
-    color: #fff !important;
+    color: $color-gray-1 !important;
 }
 
 .sidebar.sticky{
     // removes the transiton when hovering the sidebar
-    // if set to opace remove the transition 
+    // if set to opace remove the transition
     opacity: 1.0;
 }
 
@@ -123,7 +124,7 @@ $global-transition: all 0.2s ease-in-out !default;
 // for the navigation highlight animation
 .sidebar.sticky .nav__sub-title{
   //opacity: 0.75;
-  
+
   display: inline-block;
   //-webkit-transition: background-color 0.3s;
   //transition: background-color 0.3s;
@@ -132,24 +133,20 @@ $global-transition: all 0.2s ease-in-out !default;
 .sidebar.sticky .nav__sub-title:hover{
   //opacity: 1;
   //width: 50%;
-  
-  //background-color: $color-magenta-1;  
+
+  //background-color: $color-magenta-1;
   //color: #fff;
 }
 
 .sidebar.sticky a{
   border-bottom: 0px solid $color-magenta-1;
-  //background-color: $color-magenta-1;  
+  //background-color: $color-magenta-1;
   -webkit-transition: border-bottom 0.3s;
   transition: border-bottom 0.3s;
-  
+
 }
 
 .sidebar.sticky a:hover{
-  border-bottom: 5px solid $color-magenta-1;
-  //color: #fff;
+  border-bottom: 5px solid $color-cyan-1;
+  color: $color-cyan-1;
 }
-
-
-
-
