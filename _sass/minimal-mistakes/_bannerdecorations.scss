@@ -5,8 +5,10 @@
 /* Mitla-1 pattern */
 /* Drawn in inkscape, transformed to url friendly, and enhanced with sass variables.*/
 
-$pattern-choice: 1 !default; // so far 2
-$size-factor: 1.5 !default;
+$pattern-choice: 2 !default; // so far 2
+$size-factor: 0.4 !default;
+$width-pattern-container: 100% !default;
+$height-pattern-container: 2.0em !default;
 
 @function url-colour($colour) {
     @return '%23' + str-slice('#{$colour}', 2, -1)
@@ -15,7 +17,7 @@ $size-factor: 1.5 !default;
 @mixin set_pattern($type, $pattern-size-factor, $width, $height) {
   width: $width;
   height: $height;
-  border: 1px solid #000;
+  //border: 1px solid #000;
 
   @if $type == 1 {
     $pattern-colour-1: #d33682 !default;
@@ -35,6 +37,6 @@ $size-factor: 1.5 !default;
 
 .banner_decoration{
     // Mitla patterns
-    @include set_pattern($pattern-choice, $size-factor, 100%, 2em);
+    @include set_pattern($pattern-choice, $size-factor, $width-pattern-container, $height-pattern-container);
     //
 }
