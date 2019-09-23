@@ -82,18 +82,27 @@ author:
 
 footer:
   links:
-    - label: "Website"
+    - label: "Google Scholar"
+      icon: "fab fa-fw fa-google"
+      url: "https://scholar.google.co.uk/citations?user=zdxJn8QAAAAJ&hl=en"
+    - label: "ResearchGate"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://www.researchgate.net/profile/Gabriela_Ramirez-de-la-Rosa"
+    - label: "DBPL"
+      icon: "fas fa-fw fa-link"
+      url: "http://dblp.uni-trier.de/pers/hd/r/Ram=iacute=rez=de=la=Rosa:Gabriela"
+    - label: "LyR"
+      icon: "fas fa-fw fa-link"
+      url: "http://lyr.cua.uam.mx/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/cafe_con_pan"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/gabyrr"
-    - label: "Google Scholar"
-      icon: "fab fa-fw fa-google"
-      url: "https://scholar.google.co.uk/citations?user=zdxJn8QAAAAJ"
+    #- label: "Google Scholar"
+    #  icon: "fab fa-fw fa-google"
+    #  url: "https://scholar.google.co.uk/citations?user=zdxJn8QAAAAJ"
 
 defaults:
   # _posts

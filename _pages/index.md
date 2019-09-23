@@ -11,7 +11,7 @@ title: "Home"
 # extra modifications; none was done -- maybe in the future --)
 ---
 
-## Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+## Lorem ipsum dolor sit amet, consectetur adipiscing elit 
 
 Morbi posuere vel arcu a egestas. Nunc eu suscipit massa. Morbi eget ante a est faucibus luctus. Pellentesque ut orci dictum, luctus nunc nec, finibus ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin purus diam, porttitor ac libero nec, euismod scelerisque ligula. Praesent faucibus tellus nec justo congue ultrices. 
 

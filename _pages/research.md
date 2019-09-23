@@ -7,22 +7,30 @@ title: "Research"
 
 ---
 
-## Current research
-I currently I work with representation models for personality identification using latent lexicon in short texts. I'm using lexical availability to then represent a text using traditional supervised machine learning.
+## Research interest
 
+In my recent project we want to find new representations, in a multimodal fashion, for author profiling. Particularly we're studying representations using text and voice for automatic identificacion of personality and the correlation, if there is, between the personality and the academic life and success of undergraduate students.
 
-## Previous research
-Plagiarism detection from source code using a combination of lexical, style of the programmer and the structural information from code source files.
+## Projects
 
-If you are interested in my work in this topic please see:
-* paper 1
-* paper 2
-* paper 3
+### Undergrad projects (In Spanish)
 
-***
-Author profiling from texts using feature engineering to represent the documents, I usually work with very short and very informal texts such as tweets and posts from Facebook or Reddit.
+#### Completos (completed)
 
-If you are interested in this line of work please see:
-* paper X
-* paper Y
-* paper Z
+Sistema Automático para la Visualización de Relaciones de Opiniones Producidas en Twitter. Griselda Velázquez Villa. Junio 2015. En colaboración con Esaú Villatoro Tello.
+
+Identificación de rasgos de personalidad a través del Análisis Automatizado de Textos. Janet Viridiana Hernández García. Abril 2016. En colaboración con Esaú Villatoro Tello
+
+Identificación de usuarios influyentes en Twitter a través del texto y las relaciones entre usuarios. Carlos Geovany Pérez Velázquez. Diciembre 2016. En colaboración con Carlos Rodríguez Lucatero
+
+#### En proceso (ongoing)
+
+Análisis de sentimientos y emociones en documentos digitales. José Antonio Hernández Ambrocio. En colaboración con Esaú Villatoro Tello
+
+Plataforma web para la búsqueda y visualización de concordancias en documentos digitales. Emmanuel Ulisses González López. En colaboración con Esaú Villatoro Tello
+
+Mapa dinámico para la visualización de categorías de denuncias ciudadanas reportadas en Twitter. René Alejandro Guerrero Gutiérrez. En colaboración con Christian Sánchez Sánchez
+
+### Nuevos para estudiantes interesados de LTSI (new for interested students)
+
+Herramienta para la construcción de corpus textual a partir de consultas específicas. El objetivo del proyecto es desarrollar una herramienta web que a partir de una consulta formulada por un usuario (experto en algún tema) y la especificación de una fuente de información (periódicos o redes sociales), sea capaz de recuperar, organizar y almacenar los documentos relevantes a la consulta. Esta aplicación se piensa como una herramienta de monitoreo, la cual deberá descargar información en tiempo real.
