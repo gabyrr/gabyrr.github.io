@@ -30,12 +30,8 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 
 /* Fonts*/
 
-//$doc-font-size: 14 !default;
-//$paragraph-indent: false !default; // true, false (default)
-//$indent-var: 1.4em !default;
-
 $serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Montserrat", "Raleway","Roboto", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "Raleway", "Montserrat", "Roboto", "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
 
 /*navigation fonts*/
@@ -47,6 +43,12 @@ $header-font-family: $sans-serif !default;
 $caption-font-family: $sans-serif !default;
 
 $factor-font: 0.9 !default;
+
+//$doc-font-size: calc(1.0em * #{$factor-font}) !default;
+//$paragraph-indent: false !default; // true, false (default)
+//$indent-var: calc(1.4em * #{$factor-font}) !default;
+
+$type-size-page-content: calc(1.0em * #{$factor-font}) !default;
 
 $type-size-1: calc(2.441em * #{$factor-font}) !default;
 $type-size-2: calc(1.953em * #{$factor-font}) !default;
@@ -118,13 +120,13 @@ $type-size-8: calc(0.625em * #{$factor-font}) !default;
 //$navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
 
 /*transitions*/
+
 $global-transition: all 0.2s ease-in-out !default;
 //$intro-transition: intro 0.3s both !default;
 
-// for the navigation highlight animation
+/* sidebar, for the navigation highlight animation */
 .sidebar.sticky .nav__sub-title{
   //opacity: 0.75;
-
   display: inline-block;
   //-webkit-transition: background-color 0.3s;
   //transition: background-color 0.3s;

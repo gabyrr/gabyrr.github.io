@@ -16,8 +16,8 @@ I'm member of the Language and Rasoning Research Group at UAM-C since 2013. I'm 
 
 ## Get in touch
 
-> gramirez at correo dot cua dot uam dot mx
-
-> Torre III, 5to. piso. Avenida Vasco de Quiroga 4871, Colonia Santa Fé Cuajimalpa. Delegación Cuajimalpa de Morelos, C.P. 05348, México D.F
-
-> +52 (55) 5814-6500 ext: 2948
+> `gramirez at correo dot cua dot uam dot mx`
+>
+> `Torre III, 5to. piso. Avenida Vasco de Quiroga 4871, Colonia Santa Fé Cuajimalpa. Delegación Cuajimalpa de Morelos, C.P. 05348, México D.F`
+>
+> `+52 (55) 5814-6500 ext: 2948`
