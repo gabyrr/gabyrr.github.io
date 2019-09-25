@@ -33,6 +33,15 @@ $height-pattern-container: 2.0em !default;
   } @else {
     background-color: #fff;
   }
+  // clipping
+  /*
+  -webkit-background-clip: text;  
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  font-size: 2em;
+  line-height: 60px;
+  */
 }
 
 .banner_decoration{
