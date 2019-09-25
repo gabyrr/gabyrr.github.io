@@ -83,6 +83,9 @@ layout: default
                 {% if bibitem.URL %}
                 <span class="publications_item-url"> <a href="{{ bibitem.URL }}" > [web] </a>  </span>
                 {% endif %}
+                {% if bibitem.note %}
+                <span class="publications_item-url"> <a href="{{ bibitem.note }}" > [preprint] </a>  </span>
+                {% endif %}
 
 
             </div>

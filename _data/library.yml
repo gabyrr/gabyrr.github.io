@@ -635,21 +635,48 @@ references:
   - family: Ganguly
     given: Debasis
   - family: Jones
-    given: Gareth JF
-  - family: Ramírez-De-La-Cruz
+    given: Gareth J. F.
+  - family: Ramírez-de-la-Cruz
     given: Aarón
-  - family: Ramírez-De-La-Rosa
+  - family: Ramírez-de-la-Rosa
     given: Gabriela
   - family: Villatoro-Tello
     given: Esaú
   issued:
   - year: '2018'
+    month: '2'
+    day: '01'
   title: Retrieving and classifying instances of source code plagiarism
   container-title: Information Retrieval Journal
-  publisher: Springer Netherlands
   page: '1-23'
   volume: '21'
   issue: '1'
+  abstract: Automatic detection of source code plagiarism is an important research
+    field for both the commercial software industry and within the research community.
+    Existing methods of plagiarism detection primarily involve exhaustive pairwise
+    document comparison, which does not scale well for large software collections.
+    To achieve scalability, we approach the problem from an information retrieval
+    (IR) perspective. We retrieve a ranked list of candidate documents in response
+    to a pseudo-query representation constructed from each source code document in
+    the collection. The challenge in source code document retrieval is that the standard
+    bag-of-words (BoW) representation model for such documents is likely to result
+    in many false positives being retrieved, because of the use of identical programming
+    language specific constructs and keywords. To address this problem, we make use
+    of an abstract syntax tree (AST) representation of the source code documents.
+    While the IR approach is efficient, it is essentially unsupervised in nature.
+    To further improve its effectiveness, we apply a supervised classifier (pre-trained
+    with features extracted from sample plagiarized source code pairs) on the top
+    ranked retrieved documents. We report experiments on the SOCO-2014 dataset comprising
+    12K Java source files with almost 1M lines of code. Our experiments confirm that
+    the AST based approach produces significantly better retrieval effectiveness than
+    a standard BoW representation, i.e., the AST based approach is able to identify
+    a higher number of plagiarized source code documents at top ranks in response
+    to a query source code document. The supervised classifier, trained on features
+    extracted from sample plagiarized source code pairs, is shown to effectively filter
+    and thus further improve the ranked list of retrieved candidate plagiarized documents.
+  URL: https://doi.org/10.1007/s10791-017-9313-y
+  DOI: 10.1007/s10791-017-9313-y
+  ISSN: '1573-7659'
 
 - id: ramirez2018txpi
   type: article-journal
@@ -669,6 +696,8 @@ references:
   page: '2991-3001'
   volume: '34'
   issue: '5'
+  note: https://arxiv.org/abs/1806.07977
+  URL: https://content.iospress.com/articles/journal-of-intelligent-and-fuzzy-systems/ifs169484
 
 - id: sanchez2017wsdl
   type: article-journal
@@ -749,28 +778,43 @@ references:
   author:
   - family: Vera
     given: Jeniffer Cruz
-  - family: García
-    given: Alejandro Reyes
-  - family: Miranda
-    given: Gadi Reyna
-  - family: Martínez
-    given: Alejandro Rosales
-  - family: Meneses
-    given: Margarita Espinosa
+  - family: Reyes García
+    given: Alejandro
+  - family: Reyna Miranda
+    given: Gadi
+  - family: Rosales Martínez
+    given: Alejandro
+  - family: Espinosa Meneses
+    given: Margarita
   - family: Ramírez-de-la-Rosa
     given: Gabriela
-  - family: Beer
-    given: Dina Rochman
+  - family: Rochman Beer
+    given: Dina
+  editor:
+  - family: Stephanidis
+    given: Constantine
   issued:
   - year: '2019'
   title: Measuring critical reception in kids through consumption of risky challenges
     videos in youtube
-  container-title: International conference on human-computer interaction
-  publisher: Springer, Cham
+  container-title: HCI international 2019 - posters
+  publisher: Springer International Publishing
+  publisher-place: Cham
   page: '331-338'
+  abstract: This project researches if critical reception facing YouTube content can
+    be promoted in children between nine and eleven years old, focusing in analysis,
+    evaluation and taking a stand facing the videos of risky challenges. This is an
+    interdisciplinary project that used a mixed methodology, mostly quantitative which
+    consists in four phases, two of them will be exposed in this paper. One phase
+    let us know what the kids like and consume. The other phase allow us to measure
+    the level of three abilities of critical thinking. We found that even if the kids
+    do not consume a lot of channels with risky challenges, it is important to enhance
+    the ability to take a stand in order to avoid that children hurt themselves.
+  URL: https://link.springer.com/chapter/10.1007/978-3-030-23522-2_43
+  ISBN: '978-3-030-23522-2'
 
 - id: ramirez2019attribute
-  type: article-journal
+  type: paper-conference
   author:
   - family: Ramirez-de-la-Rosa
     given: Gabriela
@@ -781,5 +825,10 @@ references:
   issued:
   - year: '2019'
   title: Attribute selection techniques for classification of aggressive tweets
+  container-title: Working notes of the iberian languages evaluation forum (IberLEF)
+    2019
+  publisher: CEUR-WS
+  page: '515-519'
+  volume: '2421'
   URL: '"http://ceur-ws.org/Vol-2421/MEX-A3T_paper_4.pdf"'
 ...
