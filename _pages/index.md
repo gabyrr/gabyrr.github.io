@@ -2,24 +2,23 @@
 permalink: /
 layout: home_single
 author_profile: true
-title: "Home"
+title: "About me"
 #classes: wide
 #
 # Note: index.md is only valid when not using pagination. If pagination is needed
-# index.html has to be in the root directory. 
+# index.html has to be in the root directory.
 # home_single is a clone of single.html layout (initially copied to do some
 # extra modifications; none was done -- maybe in the future --)
 ---
 
-## Lorem ipsum dolor sit amet, consectetur adipiscing elit 
+I'm a researcher/teacher at [Autonomous Metropolitan University (UAM) Cuajimalpa](http://www.cua.uam.mx/)) in the Information Technology Department. I work in Natural Language Processing (NLP) area. My actual research interests are in the intersection of NLP and Social Sciences (particularly, Psycology). Broadly, I'm interested in developing methods and new  representations for texts to help in diagnosis pf mental illnesses. For instance, I work in several tasks of author profiling: personality identification, and depression and anorexia identification from texts. I think that the simpler the representation or method the better.
 
-Morbi posuere vel arcu a egestas. Nunc eu suscipit massa. Morbi eget ante a est faucibus luctus. Pellentesque ut orci dictum, luctus nunc nec, finibus ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin purus diam, porttitor ac libero nec, euismod scelerisque ligula. Praesent faucibus tellus nec justo congue ultrices. 
+I'm a member of the [Language and Rasoning Research Group ](http://lyr.cua.uam.mx/)) at UAM-Cuajimalpa since 2013. I'm an external member of the Laboratory on Language Technologies of the Computational Sciences Department at the National Institute of Astrophysics, Optics and Electronics (INAOE) Mexico since 2008. I'm also member of the Mexican Society of Artificial Intelligence SMIA, the Mexican Association for Natural Language Processing (AMPLN), and the Language Technologies Thematic Network RedTTL.
 
-> Cras ultricies vehicula purus, ac ultricies metus pharetra nec. Suspendisse sit amet faucibus nibh. Sed pharetra lorem enim, vel lobortis est venenatis at. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean sit amet enim nec mi rhoncus bibendum. Morbi iaculis purus at urna ullamcorper, non eleifend nibh molestie. Vivamus euismod tortor in consequat tempus.
+### Get in touch
 
-Pellentesque ut orci dictum, luctus nunc nec, finibus ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin purus diam, porttitor ac libero nec, euismod scelerisque ligula. Praesent faucibus tellus nec justo congue ultrices. 
-
-## Sed 
-
-Sed pharetra lorem enim, vel lobortis est venenatis at. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean sit amet enim nec mi rhoncus bibendum. Morbi iaculis purus at urna ullamcorper, non eleifend nibh molestie. Vivamus euismod tortor in consequat tempus.
-
+> :email: Departamento de Tecnologías de la Información. Universidad Autónoma Metropolitana Unidad Cuajimalpa. Torre III, 5to. piso. Avenida Vasco de Quiroga 4871, Colonia Santa Fé Cuajimalpa. Delegación Cuajimalpa de Morelos, C.P. 05348, Mexico City
+>
+> :e-mail: gramirez at correo dot cua dot uam dot mx
+>
+> :phone:+52 (55) 5814-6500 ext: 2948

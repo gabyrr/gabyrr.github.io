@@ -83,6 +83,10 @@ $type-size-8: calc(0.625em * #{$factor-font}) !default;
   color: inherit;
 }
 
+.page__content blockquote {
+  font-size: $type-size-5 !important;
+}
+
 .archive{
   margin-top: 0em !important;
   margin-bottom: 0em !important;
@@ -177,8 +181,11 @@ $global-transition: all 0.2s ease-in-out !default;
     font-style: italic !important;
 }
 
+.publications_item-url{
+}
+
 .publications_item a{
-    
+   color: $color-magenta-1 !important;
 }
 
 .publications_item a:hover{
