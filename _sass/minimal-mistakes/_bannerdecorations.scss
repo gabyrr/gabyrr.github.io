@@ -2,13 +2,8 @@
    For extra decoration elements, such as patterns and banners
    ========================================================================== */
 
-/* Mitla-1 pattern */
+/* Mitla patterns */
 /* Drawn in inkscape, transformed to url friendly, and enhanced with sass variables.*/
-
-$pattern-choice: 1 !default; // so far 2
-$size-factor: 1.0 !default;
-$width-pattern-container: 100% !default;
-$height-pattern-container: 2.0em !default;
 
 @function url-colour($colour) {
     @return '%23' + str-slice('#{$colour}', 2, -1)
@@ -44,8 +39,50 @@ $height-pattern-container: 2.0em !default;
   */
 }
 
+/* For navigation bar banner*/
+$pattern-choice: 1 !default; // so far 2
+$size-factor: 1.0 !default;
+$width-pattern-container: 100% !default;
+$height-pattern-container: 2.0em !default;
+
 .banner_decoration{
     // Mitla patterns
     @include set_pattern($pattern-choice, $size-factor, $width-pattern-container, $height-pattern-container);
     //
 }
+// remove if gradient opacity is not needed
+.banner_decoration::after{
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to left, transparent 80%, white), 
+                    linear-gradient(to right, transparent 80%, white);
+  //margin-top: -150px;
+  height: $height-pattern-container;
+  width: $width-pattern-container;
+  content: '';
+}
+
+/* For footer banner */
+$pattern-choice: 2; // so far 2
+$size-factor: 1.0;
+$width-pattern-container: 100%;
+$height-pattern-container: 2em;
+
+.page__footer-banner_decoration{
+    // Mitla patterns    
+    @include set_pattern($pattern-choice, $size-factor, $width-pattern-container, $height-pattern-container);
+    //margin-top: 0.1em;
+    //
+}
+// remove if gradient opacity is not needed
+.page__footer-banner_decoration::after{
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to left, transparent 80%, $color-gray-1), 
+                    linear-gradient(to right, transparent 80%, $color-gray-1);
+  //margin-top: -150px;
+  height: $height-pattern-container;
+  width: $width-pattern-container;
+  content: '';
+}
+

@@ -192,3 +192,18 @@ $global-transition: all 0.2s ease-in-out !default;
     background-color: $color-blue-1 !important;
     color: #fff !important;
 }
+
+/* footer */
+
+.page__footer-copyright{
+    margin-bottom: 1em;
+}
+
+.page__footer{
+    margin-top: 0em !important;
+    padding-bottom: 0em !important;
+}
+
+.page__footer footer{
+    //padding-bottom: 1em !important;
+}
