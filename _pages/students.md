@@ -7,10 +7,20 @@ title: "Students"
 
 ---
 
+## Current projects
+
+* Project 1. Description.
+
+* Project 2. Description.
+
 ## Master degree students
+
 * Rocío Arias Puga, Leticia Karina Flores López, Karen Ameyalli Villafán Cáceres, Daniel Martínez Espino. Organtech. Sistema de información para la producción agrícola orgánica. Estudio de caso: San Pablo Oztetepec, Milpa Alta. Universidad Autónoma Metropolitana, Unidad Cuajimalpa. Abril 2017.
 
+
+
 ## Bachelor thesis
+
 * Tonantzin Angélica Siurob Palomero. Textos de usuarios con depresión: atributos que los representan y posible detección. Universidad Autónoma Metropolitana, Unidad Cuajimalpa. September 2019.
 
 * Alejandro Díaz Ávalos. Herramienta automática para diferenciar zonas dialectales de México y ocupación en Twitter. Universidad Autónoma Metropolitana, Unidad Cuajimalpa. September 2019.

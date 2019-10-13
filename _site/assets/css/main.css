@@ -7,6 +7,13 @@
 
 .page__title { padding-top: 1.0em; padding-bottom: 1.0em; }
 
+.page__title { /*
+padding: 0.3em;
+display: inline-block;
+background-color: #000;
+color: #fff;
+*/ }
+
 .page { height: 100%; }
 
 .page__footer { background-color: #333745 !important; color: #fff !important; }
@@ -18,6 +25,10 @@
 .archive { margin-top: 0em !important; margin-bottom: 0em !important; }
 
 .archive h1 { margin-block-start: 0.83em; margin-block-end: 0.83em; }
+
+/* Avatar section tweaks */
+.author__avatar { text-align: center; }
+.author__avatar img { max-width: 130px !important; }
 
 /* nav items*/
 .sidebar.sticky { color: #333745 !important; }

@@ -70,6 +70,16 @@ $type-size-8: calc(0.625em * #{$factor-font}) !default;
   padding-bottom: 1.0em;
 }
 
+.page__title{
+  // little additions
+  /*
+  padding: 0.3em;
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  */
+}
+
 .page{
   height: 100% ;
 }
@@ -96,6 +106,17 @@ $type-size-8: calc(0.625em * #{$factor-font}) !default;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
 }
+
+/* Avatar section tweaks */
+
+.author__avatar {
+  text-align: center;
+
+  img {
+    max-width: 130px !important;
+  }
+}
+
 
 /* nav items*/
 .sidebar.sticky{

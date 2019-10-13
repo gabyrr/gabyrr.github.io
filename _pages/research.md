@@ -7,7 +7,9 @@ title: "Research"
 
 ---
 
+<!---
 ## Research interest
+-->
 
 In my recent project we want to find new representations, in a multimodal fashion, for author profiling. Particularly we're studying representations using text and voice for automatic identificacion of personality and the correlation, if there is, between the personality and the academic life and success of undergraduate students.
 
@@ -17,9 +19,18 @@ In my recent project we want to find new representations, in a multimodal fashio
 
 #### Completos (completed)
 
-Sistema Automático para la Visualización de Relaciones de Opiniones Producidas en Twitter. Griselda Velázquez Villa. Junio 2015. En colaboración con Esaú Villatoro Tello.
+![some-project](/assets/images/projects/some_image_1.jpg){: .align-left} Sistema Automático para la Visualización de Relaciones de Opiniones Producidas en Twitter. Griselda Velázquez Villa. Junio 2015. En colaboración con Esaú Villatoro Tello.
+<br/>
+<br/>
+<br/>
+{: .text-left .notice--info}
 
-Identificación de rasgos de personalidad a través del Análisis Automatizado de Textos. Janet Viridiana Hernández García. Abril 2016. En colaboración con Esaú Villatoro Tello
+
+![some-project](/assets/images/projects/some_image_2.jpg){: .align-left}  Identificación de rasgos de personalidad a través del Análisis Automatizado de Textos. Janet Viridiana Hernández García. Abril 2016. En colaboración con Esaú Villatoro Tello.
+<br/>
+<br/>
+<br/>
+{: .text-left .notice--info}
 
 Identificación de usuarios influyentes en Twitter a través del texto y las relaciones entre usuarios. Carlos Geovany Pérez Velázquez. Diciembre 2016. En colaboración con Carlos Rodríguez Lucatero
 
