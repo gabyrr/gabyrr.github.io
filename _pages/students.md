@@ -7,9 +7,17 @@ title: "Students"
 
 ---
 
+## Current projects
+
+* Project 1. Description.
+
+* Project 2. Description.
+
 ## Master degree students
 
 * Rocío Arias Puga, Leticia Karina Flores López, Karen Ameyalli Villafán Cáceres, Daniel Martínez Espino. Organtech. _Sistema de información para la producción agrícola orgánica. Estudio de caso: San Pablo Oztetepec, Milpa Alta_. Universidad Autónoma Metropolitana, Unidad Cuajimalpa. Abril 2017.
+
+
 
 ## Bachelor thesis
 
@@ -28,7 +36,3 @@ title: "Students"
 * Janet Viridiana Hernández García. *Identificación de rasgos de personalidad a través del análisis automatizado de textos*. Universidad Autónoma Metropolitana, Unidad Cuajimalpa. April 2016.
 
 * Griselda Velázquez Villar. *Sistema Automático para la visualización de relaciones de opiniones producidad en Twitter*.Universidad Autónoma Metropolitana, Unidad Cualimalpa. July 2015.
-
-
-
-

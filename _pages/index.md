@@ -15,10 +15,10 @@ I'm a researcher/teacher at [Autonomous Metropolitan University (UAM) Cuajimalpa
 
 I'm a member of the [Language and Rasoning Research Group ](http://lyr.cua.uam.mx/)) at UAM-Cuajimalpa since 2013. I'm an external member of the Laboratory on Language Technologies of the Computational Sciences Department at the National Institute of Astrophysics, Optics and Electronics (INAOE) Mexico since 2008. I'm also member of the Mexican Society of Artificial Intelligence SMIA, the Mexican Association for Natural Language Processing (AMPLN), and the Language Technologies Thematic Network RedTTL.
 
-### Get in touch
+## Get in touch
 
 > :email: Departamento de Tecnologías de la Información. Universidad Autónoma Metropolitana Unidad Cuajimalpa. Torre III, 5to. piso. Avenida Vasco de Quiroga 4871, Colonia Santa Fé Cuajimalpa. Delegación Cuajimalpa de Morelos, C.P. 05348, Mexico City
 >
-> :e-mail: gramirez at correo dot cua dot uam dot mx
+> :e-mail: **gramirez** at **correo** dot **cua** dot **uam** dot **mx**
 >
 > :phone:+52 (55) 5814-6500 ext: 2948
