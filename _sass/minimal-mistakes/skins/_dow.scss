@@ -96,6 +96,15 @@ $type-size-8: calc(0.625em * #{$factor-font}) !default;
   font-size: $type-size-5 !important;
 }
 
+
+.page__content a{
+   color: $color-magenta-1 !important;
+}
+
+.page__content a:hover{
+    color: $color-blue-1 !important;
+}
+
 .archive{
   margin-top: 0em !important;
   margin-bottom: 0em !important;
@@ -172,8 +181,8 @@ $global-transition: all 0.2s ease-in-out !default;
 }
 
 .sidebar.sticky a:hover{
-  border-bottom: 5px solid $color-cyan-1;
-  color: $color-cyan-1;
+  border-bottom: 5px solid $color-blue-1;
+  color: $color-blue-1;
 }
 
 /* publications */
@@ -205,6 +214,7 @@ $global-transition: all 0.2s ease-in-out !default;
 
 .publications_item a{
    color: $color-magenta-1 !important;
+   font-weight:bolder;
 }
 
 .publications_item a:hover{
@@ -221,6 +231,9 @@ $global-transition: all 0.2s ease-in-out !default;
 .page__footer{
     margin-top: 0em !important;
     padding-bottom: 0em !important;
+    font-size: $type-size-5;
+    text-align: center;
+
 }
 
 .page__footer footer{

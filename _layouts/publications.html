@@ -48,11 +48,11 @@ layout: default
           <div class="publications_section">
           {% assign years = "2019, 2018, 2017, 2016, 2015, 2014, 2013, 2011, 2010" | split: ", " %}
           {% for year in years%}
-           <h3>{{year}}</h3>
+           <h2>{{year}}</h2>
           {% for bibitem in site.data.library.references %}
           {% if year == bibitem.issued[0].year %}
             <div class="publications_item">
-                <span class="publications_item-title"> {{bibitem.title}}. </span>
+                <span id=pub_{{bibitem.id}} class="publications_item-title">{{bibitem.title}}.</span>
                 <span class="publications_item-authors">
                 {% for bibauthor in bibitem.author %}
                     <span class="publications_item-author">{{bibauthor.family}} {{bibauthor.given}}, </span>

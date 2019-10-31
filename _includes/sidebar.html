@@ -16,12 +16,14 @@
       {% if s.text %}{{ s.text | markdownify }}{% endif %}
       {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
     {% endfor %}
-    <div class="banner_decoration"> 
-    <!-- HOLA -->
+    <div class="banner_decoration">
+
     </div>
+
     {% if page.sidebar.nav %}
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
   {% endif %}
+
   </div>
 {% endif %}
