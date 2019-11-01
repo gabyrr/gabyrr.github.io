@@ -11,7 +11,7 @@ title: "Research"
 ## Research interest
 -->
 
-My current main research project is to identify personality from text documents using linguistics methodologies to find latent features, particularly for Spanish Language.
+In my current reserach project my goal is to identify personality from text documents using linguistics methodologies to find latent features, particularly in Spanish Language.
 
 ![personality-identification](/assets/images/projects/personality.png){: .align-right}  **Personality identification from texts**
 <br/>
@@ -23,10 +23,9 @@ My current main research project is to identify personality from text documents 
 {: .text-left .notice--info}
 
 
+Other projects my students and I are working on are:
 
-Other projects my students and I are working on are diverse, here is a list of some projects and their products such as demos or papers.
-
-![data-depression](/assets/images/projects/depresioninfo.png){: .align-right} **Textos de usuarios con depresión: atributos que los representan y posible detección**. We analyze English texts of people with and without depression from reddit in order to describe the language and behavior of people with depression in social media.
+![data-depression](/assets/images/projects/depresioninfo.png){: .align-right} **Texts from depressed users: representation features and its possible detection**. We analyze English texts of people with and without depression from Reddit in order to describe the language and behavior of people with depression in social media.
 <br/>
 <span>:information_source: [Information of depression in English texts](http://datadepresion-lyr.cua.uam.mx)</span>{: .publications_item}: Web page (in Spanish) that present the result of this analysis.
 {: .text-left .notice--info}
@@ -55,3 +54,13 @@ Other projects my students and I are working on are diverse, here is a list of s
 
 
 > :point_up: Si eres un estudiante interesado en realizar tu proyecto terminal ponte en contacto conmigo.
+> (If you are an interested student, contact me.)
+
+## Collaborators
+
+* Esaú Villatoro Tello, Héctor Jiménez Salazar, Christian Sánchez Sánchez, Carlos Rodriguez Lucatero, Wulfrano Luna Ramírez, Alba Nuñez Reyes, Margarita Espinosa Meneses, Dina Rochman Beer. _DCCD/UAM Cuajimalpa_
+* Manuel Montes y Gómez, Luis Villaseñor Pineda, Hugo J. Escalante, Fernando Sánchez Vega. _LabTL/INAOE_
+* Thamar Solorio. _RiTUAL/UH_
+* Verónica Reyes Meza. _Centro Tlaxcala de Biología de la Conducta/UATx_
+* Leticia C. Cagnina, Marcelo L. Errecalde. _LIDIC/UNSL_
+* Ivan Meza. _IIMAS/UNAM_

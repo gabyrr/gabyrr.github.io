@@ -222,6 +222,12 @@ $global-transition: all 0.2s ease-in-out !default;
     color: #fff !important;
 }
 
+/* image in blocks */
+
+img[alt=announce] {
+   height: 50px;
+}
+
 /* footer */
 
 .page__footer-copyright{
