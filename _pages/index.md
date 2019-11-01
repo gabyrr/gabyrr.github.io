@@ -11,7 +11,7 @@ title: "Hola, Hello"
 # extra modifications; none was done -- maybe in the future --)
 ---
 
-![announce](/assets/images/other/LXAI-logo-black.png){: .align-left} **Comming up**. I'll be presenting my work _Mental lexicon for personality identification in texts_ in [2019 LXAI Research Workshop @ Neurips](https://www.latinxinai.org/neurips-2019) this December 9th in Vancouver, Canada.
+![announce](/assets/images/other/LXAI-logo-black.png){: .align-left} **Coming up**. I'll be presenting my work _Mental lexicon for personality identification in texts_ in [2019 LXAI Research Workshop @ Neurips](https://www.latinxinai.org/neurips-2019) this December 9th in Vancouver, Canada.
 <br/>
 {: .text-left .notice--success}
 
