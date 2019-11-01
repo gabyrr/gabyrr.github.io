@@ -27,6 +27,10 @@ Other projects my students and I are working on are:
 
 ![data-depression](/assets/images/projects/depresioninfo.png){: .align-right} **Texts from depressed users: representation features and its possible detection**. We analyze English texts of people with and without depression from Reddit in order to describe the language and behavior of people with depression in social media.
 <br/>
+<span>:scroll: [Towards modelling depressed blogers](../publications#pub_villatoro2017uam)</span>{: .publications_item}: We use a graph-based representation to find depressed bloggers in a early detection fashion.
+<br/>
+<span>:scroll: [Finding signs of anorexia and depression in social media users](../publications#pub_rosales2018identificando)</span>{: .publications_item}: In this paper (in Spanish) we explore some traditional texts representations to identify mental disorders.
+<br/>
 <span>:information_source: [Information of depression in English texts](http://datadepresion-lyr.cua.uam.mx)</span>{: .publications_item}: Web page (in Spanish) that present the result of this analysis.
 {: .text-left .notice--info}
 
@@ -36,7 +40,7 @@ Other projects my students and I are working on are:
 <br/>
 <span>:scroll: [User influence in Twitter](../publications#pub_ramirez2014towards)</span>{: .publications_item}: We identify the influence of a Twitter account by means of style and behavior attributes of that account.
 <br/>
-<span>:scroll: [Predicting impact of Facebook posts](../publications#pub_erika2019)</span>{: .publications_item}
+<span>:scroll: [Predicting impact of Facebook posts](../publications#pub_rosas2019predicting)</span>{: .publications_item}
 <br/>
 <span>:open_file_folder: [Corpus Reacción](https://github.com/lyr-uam/CorpusReaccion)</span>{: .publications_item}: The data set of almost 14000 posts in Spanish for impact predictions.
 {: .text-left .notice--info}
