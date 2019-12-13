@@ -7,10 +7,6 @@ title: "Students"
 
 ---
 ## Current Students
-* _Identificación automática de evidencia textual de pedofilia (Automatic identification of textual evidence of pedophilia)_. **Ángeles López Flores**. Bachelor thesis.
-
-* _Prediciendo el impacto de una publicación de Facebook (Predicting the impact of Facebook posts)_. **Érika Sarai Rosas Quezada**. Bachelor thesis.
-
 * _Herramienta lúdica de generación de imágenes a partir de texto (Playful app for generating visual aid to a narrative)_. **Brenda Janet Aguilar Minero**. Bachelor thesis.
 
 * _Herramienta para la visualización de similitudes y contraste de vocabulario relevante para diferentes temas (A visualization application to show relevant vocabulary of different topics)_. **Uriel Ruiz Santiago**. Bachelor thesis.
@@ -24,6 +20,10 @@ title: "Students"
 
 
 ## Bachelor thesis
+
+* [Identificación automática de evidencia textual de pedofilia](/assets/documents/PT_AngelesLopez_2019.pdf) _(Automatic identification of textual evidence of pedophilia)_. **Ángeles López Flores**. Universidad Autónoma Metropolitana, Unidad Cuajimalpa. December 2019.
+
+* [Prediciendo el impacto de una publicación de Facebook](/assets/documents/PT_ErikaRosas_2019.pdf) _(Predicting the impact of Facebook posts)_. **Érika Sarai Rosas Quezada**. Universidad Autónoma Metropolitana, Unidad Cuajimalpa. December 2019.
 
 * [Textos de usuarios con depresión: atributos que los representan y posible detección](/assets/documents/PT_TonantzinSiurob_2019.pdf). **Tonantzin Angélica Siurob Palomero**.  Universidad Autónoma Metropolitana, Unidad Cuajimalpa. September 2019.
 
