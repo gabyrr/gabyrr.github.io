@@ -11,7 +11,7 @@ title: "Research"
 ## Research interest
 -->
 
-In my current reserach project my goal is to identify personality from text documents using linguistics methodologies to find latent features, particularly in Spanish Language.
+In my current research project my goal is to identify personality from text documents using linguistics methodologies to find latent features, particularly in Spanish Language.
 
 ![personality-identification](/assets/images/projects/personality.png){: .align-right}  **Personality identification from texts**
 <br/>
