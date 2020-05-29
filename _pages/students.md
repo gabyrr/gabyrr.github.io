@@ -7,14 +7,15 @@ title: "Students"
 
 ---
 ## Current Students
+
 * _Herramienta lúdica de generación de imágenes a partir de texto (Playful app for generating visual aid to a narrative)_. **Brenda Janet Aguilar Minero**. Bachelor thesis.
 
 * _Herramienta para la visualización de similitudes y contraste de vocabulario relevante para diferentes temas (A visualization application to show relevant vocabulary of different topics)_. **Uriel Ruiz Santiago**. Bachelor thesis.
 
-* _Fomento de la recepción crítica en niños ante el consumo de retos peligrosos en Youtube (Encouragement of critical reception in children to the consumption of dangerous challenges on YouTube)_ **Jeniffer Cruz Vera, Alejandro Reyes García, Gadi Reyna Miranda, Alejandro Rosales Martínez**. _Master thesis_.
-
 
 ## Master thesis
+
+* [Fomento de la recepción crítica en niños ante el consumo de retos peligrosos en Youtube (Encouragement of critical reception in children to the consumption of dangerous challenges on YouTube)](/assets/documents/ICR_RecepcionCritica_2020.pdf). **Jeniffer Cruz Vera, Alejandro Reyes García, Gadi Reyna Miranda, Alejandro Rosales Martínez**. Universidad Autónoma Metropolitana, Unidad Cuajimalpa. May 2020.
 
 * [Organtech: Sistema de información para la producción agrícola orgánica. Estudio de caso: San Pablo Oztetepec, Milpa Alta](/assets/documents/ICR_Organtech_2017.pdf). **Rocío Arias Puga, Leticia Karina Flores López, Karen Ameyalli Villafán Cáceres, Daniel Martínez Espino**. Universidad Autónoma Metropolitana, Unidad Cuajimalpa. Abril 2017.
 
