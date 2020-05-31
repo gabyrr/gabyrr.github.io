@@ -8,9 +8,11 @@ title: "Students"
 ---
 ## Current Students
 
+* _Detección y visualización de tópicos en conversaciones informales (Topic detection and visualization of informal conversations)_. **Luis Armando Arias Romero**. Bachelor thesis
+
 * _Herramienta lúdica de generación de imágenes a partir de texto (Playful app for generating visual aid to a narrative)_. **Brenda Janet Aguilar Minero**. Bachelor thesis.
 
-* _Herramienta para la visualización de similitudes y contraste de vocabulario relevante para diferentes temas (A visualization application to show relevant vocabulary of different topics)_. **Uriel Ruiz Santiago**. Bachelor thesis.
+* _Herramienta para la visualización de similitudes y contraste de vocabulario relevante para diferentes temas (A visualization app to show relevant vocabulary of different topics)_. **Uriel Ruiz Santiago**. Bachelor thesis.
 
 
 ## Master thesis
