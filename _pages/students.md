@@ -8,10 +8,6 @@ title: "Students"
 ---
 ## Current Students
 
-* _Detección y visualización de tópicos en conversaciones informales (Topic detection and visualization of informal conversations)_. **Luis Armando Arias Romero**. Bachelor thesis
-
-* _Herramienta lúdica de generación de imágenes a partir de texto (Playful app for generating visual aid to a narrative)_. **Brenda Janet Aguilar Minero**. Bachelor thesis.
-
 * _Herramienta para la visualización de similitudes y contraste de vocabulario relevante para diferentes temas (A visualization app to show relevant vocabulary of different topics)_. **Uriel Ruiz Santiago**. Bachelor thesis.
 
 
@@ -23,6 +19,12 @@ title: "Students"
 
 
 ## Bachelor thesis
+
+* _Detección y visualización de tópicos en conversaciones informales (Topic detection and visualization of informal conversations)_. **Luis Armando Arias Romero**. Universidad Autónoma Metropolitana, Unidad Cuajimalpa. March 2021.
+
+* _Modelo atuomático de detección de armas_. **Eduardo Enrique Roldán Juárez**. Universidad Autónoma Metropolitana. March 2021.
+
+* _Herramienta lúdica de generación de imágenes a partir de texto (Playful app for generating visual aid to a narrative)_. **Brenda Janet Aguilar Minero**. Universidad Autónoma Metropolitana, Unidad Cuajimalpa. July 2020.
 
 * [Identificación automática de evidencia textual de pedofilia](/assets/documents/PT_AngelesLopez_2019.pdf) _(Automatic identification of textual evidence of pedophilia)_. **Ángeles López Flores**. Universidad Autónoma Metropolitana, Unidad Cuajimalpa. December 2019.
 
