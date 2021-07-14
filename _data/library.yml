@@ -1089,7 +1089,7 @@ references:
   - family: Villatoro-Tello
     given: Esaú
   issued:
-  - year: 2020
+  - year: '2020'
   title: Predicting consumers engagement on facebook based on what and how companies
     write
   container-title: Journal of Intelligent & Fuzzy Systems
@@ -1113,7 +1113,7 @@ references:
   - family: Motlicek
     given: Petr
   issued:
-  - year: 2020
+  - year: '2020'
   title: Idiap and uam participation at mex-a3t evaluation campaign
   container-title: In proceedings of the iberian languages evaluation forum (iberlef
     2020)
@@ -1121,4 +1121,55 @@ references:
   page: 252-257
   volume: '2664'
   URL: '"http://ceur-ws.org/Vol-2664/mexa3t_paper3.pdf"'
+
+- id: villatoro2021latefusion
+  type: paper-conference
+  author:
+  - family: Villatoro-Tello
+    given: Esaú
+  - family: Dubagunta
+    given: S. Pavankumar
+  - family: Fritsch
+    given: Julian
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  - family: Motlicek
+    given: Petr
+  - family: Magimai
+    given: Mathew
+  issued:
+  - year: '2021'
+  title: Late fusion of the available lexicon and raw waveform-based acoustic modeling
+    for depression and dementia recognition
+  container-title: To appear in proceedings of the interspeech 2021
+
+- id: arias2021analisis
+  type: article-journal
+  author:
+  - family: Arias Romero
+    given: Luis Armando
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  - family: Villatoro-Tello
+    given: Esaú
+  issued:
+  - year: '2021'
+  title: Análisis y seguimiento de tópicos en las conferencias matutinas del presidente
+    de méxico
+  container-title: To apper in Research in Computing Science
+
+- id: roldan2021construccion
+  type: article-journal
+  author:
+  - family: Roldán Juárez
+    given: Eduardo Enrique
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  - family: Rivero-Moreno
+    given: Carlos Joel
+  issued:
+  - year: '2021'
+  title: Construcción de un modelo automático para la detección de armas en el transporte
+    público
+  container-title: To apper in Research in Computing Science
 ...
