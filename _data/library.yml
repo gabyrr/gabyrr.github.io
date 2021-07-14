@@ -1079,7 +1079,7 @@ references:
   volume: '2421'
   URL: '"http://ceur-ws.org/Vol-2421/MEX-A3T_paper_4.pdf"'
   
- - id: rosas2020predicting
+- id: rosas2020predicting
   type: article-journal
   author:
   - family: Rosas-Quezada
@@ -1098,4 +1098,27 @@ references:
   issue: '2'
   note: https://arxiv.org/abs/1909.09914
   URL: 10.3233/JIFS-179897
+
+- id: villatoro2020idiap
+  type: paper-conference
+  author:
+  - family: Villatoro-Tello
+    given: Esaú
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  - family: Kumar
+    given: Sanjit
+  - family: Parida
+    given: Shantipriya
+  - family: Motlicek
+    given: Petr
+  issued:
+  - year: 2020
+  title: Idiap and uam participation at mex-a3t evaluation campaign
+  container-title: In proceedings of the iberian languages evaluation forum (iberlef
+    2020)
+  publisher: CEUR-WS
+  page: 252-257
+  volume: '2664'
+  URL: '"http://ceur-ws.org/Vol-2664/mexa3t_paper3.pdf"'
 ...
