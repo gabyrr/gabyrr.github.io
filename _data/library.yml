@@ -1078,8 +1078,8 @@ references:
   page: '515-519'
   volume: '2421'
   URL: '"http://ceur-ws.org/Vol-2421/MEX-A3T_paper_4.pdf"'
-
-- id: rosas2019predicting
+  
+ - id: rosas2020predicting
   type: article-journal
   author:
   - family: Rosas-Quezada
@@ -1089,9 +1089,13 @@ references:
   - family: Villatoro-Tello
     given: Esaú
   issued:
-  - year: '2019'
+  - year: 2020
   title: Predicting consumers engagement on facebook based on what and how companies
     write
-  container-title: arXiv preprint arXiv:1909.09914
+  container-title: Journal of Intelligent & Fuzzy Systems
+  page: 2365-2377
+  volume: '39'
+  issue: '2'
   note: https://arxiv.org/abs/1909.09914
+  URL: 10.3233/JIFS-179897
 ...
