@@ -1019,6 +1019,7 @@ references:
   page: '221-233'
   volume: '147'
   issue: '6'
+  URL: https://www.rcs.cic.ipn.mx/2018_147_6/Un%20metodo%20para%20el%20analisis%20de%20sentimientos%20bajo%20un%20enfoque%20supervisado%20usando%20recursos%20lexicos.pdf
 
 - id: vera2019measuring
   type: paper-conference
@@ -1077,7 +1078,7 @@ references:
   publisher: CEUR-WS
   page: '515-519'
   volume: '2421'
-  URL: '"http://ceur-ws.org/Vol-2421/MEX-A3T_paper_4.pdf"'
+  URL: http://ceur-ws.org/Vol-2421/MEX-A3T_paper_4.pdf
   
 - id: rosas2020predicting
   type: article-journal
@@ -1090,14 +1091,14 @@ references:
     given: Esaú
   issued:
   - year: '2020'
-  title: Predicting consumers engagement on facebook based on what and how companies
+  title: Predicting consumers engagement on Facebook based on what and how companies
     write
   container-title: Journal of Intelligent & Fuzzy Systems
   page: 2365-2377
   volume: '39'
   issue: '2'
   note: https://arxiv.org/abs/1909.09914
-  URL: 10.3233/JIFS-179897
+  URL: https://content.iospress.com/articles/journal-of-intelligent-and-fuzzy-systems/ifs179897
 
 - id: villatoro2020idiap
   type: paper-conference
@@ -1114,13 +1115,13 @@ references:
     given: Petr
   issued:
   - year: '2020'
-  title: Idiap and uam participation at mex-a3t evaluation campaign
-  container-title: In proceedings of the iberian languages evaluation forum (iberlef
+  title: Idiap and UAM participation at Mex-A3T evaluation campaign
+  container-title: In proceedings of the iberian languages evaluation forum (IBERLEF
     2020)
   publisher: CEUR-WS
   page: 252-257
   volume: '2664'
-  URL: '"http://ceur-ws.org/Vol-2664/mexa3t_paper3.pdf"'
+  URL: http://ceur-ws.org/Vol-2664/mexa3t_paper3.pdf
 
 - id: villatoro2021latefusion
   type: paper-conference
