@@ -21,12 +21,12 @@ references:
   - family: Helgadóttir
     given: Sigrún
   issued:
-  - year: '2010'
+  - year: 2010
   title: Using information from the target language to improve crosslingual text classification
   container-title: Advances in natural language processing
   publisher: Springer Berlin Heidelberg
   publisher-place: Berlin, Heidelberg
-  page: '305-313'
+  page: 305-313
   abstract: Crosslingual text classification consists of exploiting labeled documents
     in a source language to classify documents in a different target language. In
     addition to the evident translation problem, this task also faces some difficulties
@@ -40,7 +40,7 @@ references:
     other similar documents from the same target dataset. Experimental results using
     three different languages evidence the appropriateness of the proposed approach.
   URL: https://link.springer.com/chapter/10.1007/978-3-642-14770-8_34
-  ISBN: '978-3-642-14770-8'
+  ISBN: 978-3-642-14770-8
 
 - id: ramirez2013document
   type: article-journal
@@ -54,14 +54,14 @@ references:
   - family: Villaseñor-Pineda
     given: Luis
   issued:
-  - year: '2013'
-    month: '3'
-    day: '01'
+  - year: 2013
+    month: 3
+    day: 1
   title: 'A document is known by the company it keeps: Neighborhood consensus for
     short text categorization'
   title-short: A document is known by the company it keeps
   container-title: Language Resources and Evaluation
-  page: '127-149'
+  page: 127-149
   volume: '47'
   issue: '1'
   abstract: During the last decades the Web has become the greatest repository of
@@ -85,7 +85,7 @@ references:
     labeled training resources are limited.
   URL: https://doi.org/10.1007/s10579-012-9192-1
   DOI: 10.1007/s10579-012-9192-1
-  ISSN: '1574-0218'
+  ISSN: 1574-0218
 
 - id: ramirez2010enhancing
   type: paper-conference
@@ -100,12 +100,12 @@ references:
   - family: Gelbukh
     given: Alexander
   issued:
-  - year: '2010'
+  - year: 2010
   title: Enhancing text classification by information embedded in the test set
   container-title: Computational linguistics and intelligent text processing
   publisher: Springer Berlin Heidelberg
   publisher-place: Berlin, Heidelberg
-  page: '627-637'
+  page: 627-637
   abstract: Current text classification methods are mostly based on a supervised approach,
     which require a large number of examples to build models accurate. Unfortunately,
     in several tasks training sets are extremely small and their generation is very
@@ -120,7 +120,7 @@ references:
     outperform the results from traditional approaches such as Naive Bayes and Support
     Vector Machines.
   URL: https://link.springer.com/chapter/10.1007/978-3-642-12116-6_53
-  ISBN: '978-3-642-12116-6'
+  ISBN: 978-3-642-12116-6
 
 - id: ramirez2011language
   type: article-journal
@@ -142,7 +142,7 @@ references:
   - family: Pena
     given: Elizabeth
   issued:
-  - year: '2011'
+  - year: 2011
   title: 'Language dominance prediction in spanish-english bilingual children using
     syntactic information: A first approximation'
   title-short: Language dominance prediction in spanish-english bilingual children
@@ -161,10 +161,10 @@ references:
     given: Thamar
   - family: Montes-y-Gómez
     given: Manuel
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   issued:
-  - year: '2013'
+  - year: 2013
   title: Author profiling for english and spanish text
   container-title: Proceedings of clef
 
@@ -173,41 +173,41 @@ references:
   author:
   - family: Villatoro-Tello
     given: Esaú
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   - family: Sánchez-Sánchez
     given: Christian
   - family: Jiménez-Salazar
     given: Héctor
-  - family: Luna-Ramírez
+  - family: Luna-Ramı́rez
     given: Wulfrano Arturo
-  - family: Rodríguez-Lucatero
+  - family: Rodrı́guez-Lucatero
     given: Carlos
   issued:
-  - year: '2014'
+  - year: 2014
   title: 'UAMCLyR at replab 2014: Author profiling task.'
   title-short: UAMCLyR at replab 2014
   container-title: CLEF (working notes)
-  page: '1547-1558'
+  page: 1547-1558
   URL: https://www.researchgate.net/publication/265727886_UAMCLyR_at_RepLab_2014_Author_Profiling_Task
 
 - id: garcia2014detectando
   type: article-journal
   author:
-  - family: García-Rodríguez
+  - family: Garcı́a-Rodrı́guez
     given: Gerardo
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   - family: Villatoro-Tello
     given: Esaú
   - family: Jiménez-Salazar
     given: Héctor
   issued:
-  - year: '2014'
+  - year: 2014
   title: Detectando la prioridad de contenidos generados en twitter por medio de n-gramas
     de palabras
   container-title: Journal of Research in Computing Science
-  page: '21-32'
+  page: 21-32
   volume: '74'
 
 - id: shrestha2014using
@@ -228,31 +228,30 @@ references:
     given: Gary
   editor:
   - family: Bazzan
-    given: Ana L.C.
+    given: Ana L. C.
   - family: Pichara
     given: Karim
   issued:
-  - year: '2014'
+  - year: 2014
   title: Using string information for malware family identification
   container-title: Advances in artificial intelligence – iberamia 2014
   publisher: Springer International Publishing
   publisher-place: Cham
-  page: '686-697'
-  abstract: 'Classifying malware into correct families is an important task for
-    anti-virus vendors. Currently, only some of them will recognize a particular malware.
-    Even when they do, they either classify them into different families or use a
-    generic family name, which does not provide much information. Our method for malware
-    family identification is based on the observation that closely related malware
-    have heavy overlap of strings. We first created two kinds of prototypes from printable
-    strings in the malware: one using term frequency–inverse document frequency (tf-idf)
-    and the other using the prominent strings extracted from the vocabulary. We then
-    used these prototypes for classification. We achieved an accuracy of 91.02 % by
-    considering the entire vocabulary and an accuracy of 80.52 % by considering 20
-    prominent strings for each malware family. Our accuracy is high enough for our
-    system to be used to classify even those malware that can confuse the anti-virus
-    vendors.'
+  page: 686-697
+  abstract: 'Classifying malware into correct families is an important task for anti-virus
+    vendors. Currently, only some of them will recognize a particular malware. Even
+    when they do, they either classify them into different families or use a generic
+    family name, which does not provide much information. Our method for malware family
+    identification is based on the observation that closely related malware have heavy
+    overlap of strings. We first created two kinds of prototypes from printable strings
+    in the malware: one using term frequency–inverse document frequency (tf-idf) and
+    the other using the prominent strings extracted from the vocabulary. We then used
+    these prototypes for classification. We achieved an accuracy of 91.02 % by considering
+    the entire vocabulary and an accuracy of 80.52 % by considering 20 prominent strings
+    for each malware family. Our accuracy is high enough for our system to be used
+    to classify even those malware that can confuse the anti-virus vendors.'
   URL: https://link.springer.com/chapter/10.1007/978-3-319-12027-0_55
-  ISBN: '978-3-319-12027-0'
+  ISBN: 978-3-319-12027-0
 
 - id: ramirez2014towards
   type: paper-conference
@@ -273,13 +272,13 @@ references:
   - family: Galicia-Haro
     given: Sofía N.
   issued:
-  - year: '2014'
+  - year: 2014
   title: Towards automatic detection of user influence in twitter by means of stylistic
     and behavioral features
   container-title: Human-inspired computing and its applications
   publisher: Springer International Publishing
   publisher-place: Cham
-  page: '245-256'
+  page: 245-256
   abstract: Online communities are filled with comments of loyal readers or first-time
     viewers, that are constantly creating and sharing information at an unprecedented
     level, resulting in millions of messages containing opinions, ideas, needs and
@@ -295,22 +294,22 @@ references:
     a social networking community, and also it obtains competitive results against
     several state-of-the-art methods.
   URL: https://link.springer.com/chapter/10.1007/978-3-319-13647-9_23
-  ISBN: '978-3-319-13647-9'
+  ISBN: 978-3-319-13647-9
 
 - id: ramirez2010clasificacion
   type: no-type
   author:
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Adriana Gabriela
   issued:
-  - year: '2010'
+  - year: 2010
   title: Clasificacion de textos utilizando informacion inherente al conjunto a clasificar
-  publisher: Instituto Nacional de Astrofísica, Óptica y Electrónica
+  publisher: Instituto Nacional de Astrofı́sica, Óptica y Electrónica
 
 - id: ramirez2013exploring
   type: paper-conference
   author:
-  - family: Ramírez de la Rosa
+  - family: Ramı́rez de la Rosa
     given: Gabriela
   - family: Solorio
     given: Thamar
@@ -325,55 +324,55 @@ references:
   - family: Iglesias
     given: Aquiles
   issued:
-  - year: '2013'
-    month: '8'
+  - year: 2013
+    month: 8
   title: Exploring word class n-grams to measure language development in children
   container-title: Proceedings of the 2013 workshop on biomedical natural language
     processing
   publisher: Association for Computational Linguistics
   publisher-place: Sofia, Bulgaria
-  page: '89-97'
+  page: 89-97
   URL: https://www.aclweb.org/anthology/W13-1911
 
 - id: ramirez2014pertinence
   type: article-journal
   author:
-  - family: Ramírez-de-la-Cruz
+  - family: Ramı́rez-de-la-Cruz
     given: A
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: G
   - family: Sánchez-Sánchez
     given: C
   - family: Jiménez-Salazar
     given: H
   - family: Villatoro-Tello
-    given: 'E'
+    given: E
   issued:
-  - year: '2014'
+  - year: 2014
   title: Pertinence of lexical and structural features for plagiarism detection in
     source code
   container-title: Journal of Research in Computing Science
-  page: '21-31'
+  page: 21-31
   volume: '85'
   URL: https://www.rcs.cic.ipn.mx/2014_85/Pertinence%20of%20Lexical%20and%20Structural%20Features%20for%20Plagiarism%20Detection%20in%20Source%20Code.pdf
 
 - id: ramirez2014uam
   type: article-journal
   author:
-  - family: Ramirez-de-la Cruz
+  - family: Ramırez-de-la Cruz
     given: A
-  - family: Ramirez-de-la Rosa
+  - family: Ramırez-de-la Rosa
     given: G
   - family: Sánchez-Sánchez
     given: C
-  - family: Luna-Ramirez
+  - family: Luna-Ramırez
     given: WA
   - family: Jiménez-Salazar
     given: H
-  - family: Rodriguez-Lucatero
+  - family: Rodrıguez-Lucatero
     given: C
   issued:
-  - year: '2014'
+  - year: 2014
   title: 'UAM@ soco 2014: Detection of source code reuse by means of combining different
     types of representations'
   title-short: UAM@ soco 2014
@@ -391,65 +390,65 @@ references:
     given: Carlos
   - family: Villatoro-Tello
     given: Esaú
-  - family: Ramirez-de-la-Rosa
+  - family: Ramırez-de-la-Rosa
     given: Gabriela
   issued:
-  - year: '2015'
+  - year: 2015
   title: Sistema multiagente integrador de bibliotecas digitales
   container-title: Journal of Research in Computing Science
-  page: '45-56'
+  page: 45-56
   volume: '93'
 
 - id: alvarado2015sistema
   type: article-journal
   author:
-  - family: Alvarado-Garcia
+  - family: Alvarado-Garcıa
     given: J Roberto
-  - family: Hernández-Garcia
+  - family: Hernández-Garcıa
     given: Janet V
   - family: Villatoro-Tello
     given: Esaú
-  - family: Ramirez-de-la-Rosa
+  - family: Ramırez-de-la-Rosa
     given: Gabriela
   - family: Sánchez-Sánchez
     given: Christian
   issued:
-  - year: '2015'
+  - year: 2015
   title: Sistema de recomendación de música basado en aprendizaje semi-supervisado
   container-title: Journal of Research in Computing Science
-  page: '97-109'
+  page: 97-109
   volume: '94'
 
 - id: ramirez2014importance
   type: paper-conference
   author:
-  - family: Ramírez-de-la-Cruz
+  - family: Ramı́rez-de-la-Cruz
     given: Aarón
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   - family: Sánchez-Sánchez
     given: Christian
   - family: Jiménez-Salazar
     given: Héctor
   issued:
-  - year: '2015'
+  - year: 2015
   title: On the importance of lexicon, structure and style for identifying source
     code plagiarism
   container-title: Proceedings of the forum for information retrieval evaluation
   collection-title: FIRE ’14
   publisher: ACM
   publisher-place: New York, NY, USA
-  page: '31-38'
+  page: 31-38
   keyword: Document representation, Lexical, Plagiarism detection, Source code plagiarism,
     structural and stylistic features
   URL: http://doi.acm.org/10.1145/2824864.2824879
   DOI: 10.1145/2824864.2824879
-  ISBN: '978-1-4503-3755-7'
+  ISBN: 978-1-4503-3755-7
 
 - id: ramirez2015role
   type: paper-conference
   author:
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   - family: Reyes-Meza
     given: Verónica
@@ -462,34 +461,34 @@ references:
   - family: Villasenor-Pineda
     given: Luis
   issued:
-  - year: '2015'
+  - year: 2015
   title: The role of n-grams in firstborns identification
   container-title: Advances in artificial intelligence and soft computing
   publisher: Springer International Publishing
-  page: '95-106'
+  page: 95-106
   volume: '9413'
 
 - id: ramirez2015high
   type: paper-conference
   author:
-  - family: Ramírez-de-la-Cruz
+  - family: Ramı́rez-de-la-Cruz
     given: Aarón
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   - family: Sánchez-Sánchez
     given: Christian
   - family: Jiménez-Salazar
     given: Héctor
-  - family: Rodríguez-Lucatero
+  - family: Rodrı́guez-Lucatero
     given: Carlos
-  - family: Luna-Ramírez
+  - family: Luna-Ramı́rez
     given: Wulfrano Arturo
   issued:
-  - year: '2015'
+  - year: 2015
   title: High level features for detecting source code plagiarism across programming
     languages.
   container-title: FIRE workshops
-  page: '10-14'
+  page: 10-14
   URL: https://pan.webis.de/downloads/publications/papers/ramirezdelacruz_2015.pdf
 
 - id: juarez2015plataforma
@@ -501,13 +500,13 @@ references:
     given: Griselda
   - family: Villatoro-Tello
     given: Esaú
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   issued:
-  - year: '2015'
+  - year: 2015
   title: Plataforma web para la identificación y el análisis de eventos en twitter.
   container-title: Research in Computing Science
-  page: '71-80'
+  page: 71-80
   volume: '97'
   URL: https://pdfs.semanticscholar.org/294e/c041e8baa6b66914f9e09dc00874aa1eaaa9.pdf
 
@@ -524,15 +523,15 @@ references:
     given: Leticia C
   - family: Errecalde
     given: Marcelo Luis
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   - family: Villatoro-Tello
     given: Esaú
   issued:
-  - year: '2016'
+  - year: 2016
   title: Profile-based approach for age and gender identification.
   container-title: CLEF (working notes)
-  page: '864-873'
+  page: 864-873
   URL: http://ceur-ws.org/Vol-1179/CLEF2013wn-PAN-SantoshEt2013.pdf
 
 - id: callejas2016dialogue
@@ -556,14 +555,14 @@ references:
   - family: Pala
     given: Karel
   issued:
-  - year: '2016'
+  - year: 2016
   title: 'From dialogue corpora to dialogue systems: Generating a chatbot with teenager
     personality for preventing cyber-pedophilia'
   title-short: From dialogue corpora to dialogue systems
   container-title: Text, speech, and dialogue
   publisher: Springer International Publishing
   publisher-place: Cham
-  page: '531-539'
+  page: 531-539
   abstract: A conversational agent, also known as chatbot, is a machine conversational
     system which interacts with human users via natural language. Traditionally, chatbot
     technology is built under certain set of “manually” elaborated conversational
@@ -578,7 +577,7 @@ references:
     we compile and release a large dialogue corpus containing real examples of conversations
     among teenagers.
   URL: https://link.springer.com/chapter/10.1007/978-3-319-45510-5_61
-  ISBN: '978-3-319-45510-5'
+  ISBN: 978-3-319-45510-5
 
 - id: villatoro2016enhancing
   type: paper-conference
@@ -603,12 +602,12 @@ references:
   - family: Murillo
     given: Juan de Dios
   issued:
-  - year: '2016'
+  - year: 2016
   title: Enhancing semi-supevised text classification using document summaries
   container-title: Advances in artificial intelligence - iberamia 2016
   publisher: Springer International Publishing
   publisher-place: Cham
-  page: '115-126'
+  page: 115-126
   abstract: The vast amount of electronic documents available on the Internet demands
     for automatic tools that help people finding, organizing and easily accessing
     to all this information. Although current text classification methods have alleviated
@@ -621,17 +620,17 @@ references:
     techniques; additionally, our results also indicate that our approach is suitable
     for learning from only one labeled example per category.
   URL: https://link.springer.com/chapter/10.1007/978-3-319-47955-2_10
-  ISBN: '978-3-319-47955-2'
+  ISBN: 978-3-319-47955-2
 
 - id: villasenor2016enhancing
   type: paper-conference
   author:
   - family: Villasenor-Pineda
     given: Luis
-  - family: Ramirez-de-la-Rosa
+  - family: Ramırez-de-la-Rosa
     given: Gabriela
   issued:
-  - year: '2016'
+  - year: 2016
   title: Enhancing semi-supevised text classification using document summaries
   container-title: 'Advances in artificial intelligence-iberamia 2016: 15th ibero-american
     conference on ai, san josé, costa rica, november 23-25, 2016, proceedings'
@@ -642,9 +641,9 @@ references:
 - id: hernandez2016aplicacion
   type: article-journal
   author:
-  - family: Hernández-Garcia
+  - family: Hernández-Garcıa
     given: Janet V
-  - family: Ramirez-de-la-Rosa
+  - family: Ramırez-de-la-Rosa
     given: Gabriela
   - family: Villatoro-Tello
     given: Esaú
@@ -653,7 +652,7 @@ references:
   - family: Reyes-Meza
     given: Verónica
   issued:
-  - year: '2016'
+  - year: 2016
   title: Aplicación web para identificar personalidad, género y edad de usuarios en
     twitter
   container-title: Advances in Natural Language Processing and Computational Linguistics
@@ -669,15 +668,15 @@ references:
     given: Erick Monroy
   - family: Villatoro-Tello
     given: Esaú
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   - family: Sánchez-Sánchez
     given: Christian
   issued:
-  - year: '2016'
+  - year: 2016
   title: Agrupamiento de textos cortos en dominios cruzados.
   container-title: Research in Computing Science
-  page: '133-145'
+  page: 133-145
   volume: '115'
   URL: https://pdfs.semanticscholar.org/961e/d8d9af9c5cd2c786cf43fcd43183b328b704.pdf
 
@@ -686,34 +685,34 @@ references:
   author:
   - family: Sepúlveda-Barrera
     given: Diana M
-  - family: Martinez-Espino
+  - family: Martınez-Espino
     given: Daniel
   - family: Villatoro-Tello
     given: Esaú
-  - family: Ramirez-de-la-Rosa
+  - family: Ramırez-de-la-Rosa
     given: Gabriela
   issued:
-  - year: '2016'
-  title: Importancia del lenguaje coloquial y de los simbolos de puntuación en el
+  - year: 2016
+  title: Importancia del lenguaje coloquial y de los sımbolos de puntuación en el
     perfilado de autores
   container-title: Research in Computing Science
-  page: '43-56'
+  page: 43-56
   volume: '115'
   URL: https://www.rcs.cic.ipn.mx/2016_115/Importancia%20del%20lenguaje%20coloquial%20y%20de%20los%20simbolos%20de%20puntuacion%20en%20el%20perfilado%20de%20autores.pdf
 
 - id: ramirez2016exploracion
   type: article-journal
   author:
-  - family: Ramirez-De-la-Cruz
+  - family: Ramırez-De-la-Cruz
     given: Aarón
   - family: Jiménez-Salazar
     given: Héctor
   - family: Villatoro-Tello
     given: Esaú
-  - family: Ramirez-De-la-Rosa
+  - family: Ramırez-De-la-Rosa
     given: Gabriela
   issued:
-  - year: '2016'
+  - year: 2016
   title: Exploración sobre la construcción automática de un tesauro a partir de un
     documento
   container-title: Research in Computing Science
@@ -727,16 +726,16 @@ references:
     given: Leticia
   - family: Villatoro-Tello
     given: Esaú
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   - family: Rivero-Moreno
     given: Carlos J
   issued:
-  - year: '2017'
+  - year: 2017
   title: Resúmenes de múltiples documentos guiados por consulta empleando representaciones
     distribucionales.
   container-title: Research in Computing Science
-  page: '127-139'
+  page: 127-139
   volume: '134'
   URL: https://www.rcs.cic.ipn.mx/2017_134/Resumenes%20de%20multiples%20documentos%20guiados%20por%20consulta%20empleando%20representaciones.pdf
 
@@ -746,7 +745,7 @@ references:
   - family: Real-Flores
     given: Gerardo
   - family: Mendoza
-    given: Betzabet García
+    given: Betzabet Garcı́a
   - family: Calderón-Casanova
     given: Ester
   - family: Ramérez-de-la-Rosa
@@ -754,11 +753,11 @@ references:
   - family: Villatoro-Tello
     given: Esaú
   issued:
-  - year: '2017'
+  - year: 2017
   title: Generación y enriquecimiento automático de recursos léxicos para el análisis
     de sentimientos.
   container-title: Research in Computing Science
-  page: '163-176'
+  page: 163-176
   volume: '134'
   URL: https://www.rcs.cic.ipn.mx/2017_134/Generacion%20y%20enriquecimiento%20automatico%20de%20recursos%20lexicos%20para%20el%20analisis%20de%20sentimientos.pdf
 
@@ -772,15 +771,15 @@ references:
   - family: Solorio
     given: Thamar
   issued:
-  - year: '2013'
-    month: '6'
+  - year: 2013
+    month: 6
   title: 'Native language identification: A simple n-gram based approach'
   title-short: Native language identification
   container-title: Proceedings of the eighth workshop on innovative use of NLP for
     building educational applications
   publisher: Association for Computational Linguistics
   publisher-place: Atlanta, Georgia
-  page: '224-231'
+  page: 224-231
   URL: https://www.aclweb.org/anthology/W13-1729
 
 - id: villatoro2017uam
@@ -788,12 +787,12 @@ references:
   author:
   - family: Villatoro-Tello
     given: Esaú
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   - family: Jiménez-Salazar
     given: Héctor
   issued:
-  - year: '2017'
+  - year: 2017
   title: 'UAM’s participation at clef eRisk 2017 task: Towards modelling depressed
     blogers.'
   title-short: UAM’s participation at clef eRisk 2017 task
@@ -807,17 +806,17 @@ references:
     given: Alba
   - family: Villatoro-Tello
     given: Esaú
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   - family: Sánchez-Sánchez
     given: Christian
   issued:
-  - year: '2017'
+  - year: 2017
   title: A compact representation for cross-domain short text clustering
   container-title: Advances in Artificial Intelligence, Lecture Notes in Computer
     Science
   publisher: Springer, Cham
-  page: '16-26'
+  page: 16-26
   volume: '10061'
   URL: https://link.springer.com/chapter/10.1007/978-3-319-62434-1_2
 
@@ -835,12 +834,12 @@ references:
   - family: Villatoro-Tello
     given: Esaú
   issued:
-  - year: '2018'
-    month: '2'
-    day: '01'
+  - year: 2018
+    month: 2
+    day: 1
   title: Retrieving and classifying instances of source code plagiarism
   container-title: Information Retrieval Journal
-  page: '1-23'
+  page: 1-23
   volume: '21'
   issue: '1'
   abstract: Automatic detection of source code plagiarism is an important research
@@ -868,24 +867,24 @@ references:
     and thus further improve the ranked list of retrieved candidate plagiarized documents.
   URL: https://doi.org/10.1007/s10791-017-9313-y
   DOI: 10.1007/s10791-017-9313-y
-  ISSN: '1573-7659'
+  ISSN: 1573-7659
 
 - id: ramirez2018txpi
   type: article-journal
   author:
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   - family: Villatoro-Tello
     given: Esaú
   - family: Jiménez-Salazar
     given: Héctor
   issued:
-  - year: '2018'
+  - year: 2018
   title: 'TxPI-u: A resource for personality identification of undergraduates'
   title-short: TxPI-u
   container-title: Journal of Intelligent & Fuzzy Systems
   publisher: IOS Press
-  page: '2991-3001'
+  page: 2991-3001
   volume: '34'
   issue: '5'
   note: https://arxiv.org/abs/1806.07977
@@ -898,24 +897,24 @@ references:
     given: Christian
   - family: Villatoro-Tello
     given: Esaú
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   - family: Jiménez-Salazar
     given: Héctor
   - family: Avendaño
     given: David Pinto
   issued:
-  - year: '2017'
+  - year: 2017
   title: WSDL information selection for improving web service classification.
   container-title: Research in Computing Science
-  page: '83-96'
+  page: 83-96
   volume: '144'
   URL: https://pdfs.semanticscholar.org/85c8/ab09ffd5cb1cb4bff6e8753be4f40e7f7816.pdf?_ga=2.17513081.1117350816.1572570834-1719734916.1570126203
 
 - id: ramirezhwxpi
   type: article-journal
   author:
-  - family: Ramírez-de-la-Rosa
+  - family: Ramı́rez-de-la-Rosa
     given: Gabriela
   - family: Villatoro-Tello
     given: Esaú
@@ -957,13 +956,13 @@ references:
   - family: Jair Escalante
     given: Hugo
   issued:
-  - year: '2019'
+  - year: 2019
   title: Overview of the multimedia information processing for personality & social
     networks analysis contest
   container-title: Pattern recognition and information forensics
   publisher: Springer International Publishing
   publisher-place: Cham
-  page: '127-139'
+  page: 127-139
   abstract: Progress in the autonomous analysis of human behavior from multimodal
     information has lead to very effective methods able to deal with problems like
     action/gesture/activity recognition, pose estimation, opinion mining, user tailored
@@ -978,12 +977,12 @@ references:
     problem, data sets, evaluation metrics and protocol, as well as an analysis of
     the performance of simple baselines.
   URL: https://link.springer.com/chapter/10.1007/978-3-030-05792-3_12
-  ISBN: '978-3-030-05792-3'
+  ISBN: 978-3-030-05792-3
 
 - id: rosales2018identificando
   type: article-journal
   author:
-  - family: Rosales-Martinez
+  - family: Rosales-Martınez
     given: Alejandro
   - family: Sotres-Castrejon
     given: Pablo
@@ -991,13 +990,13 @@ references:
     given: Griselda
   - family: Villatoro-Tello
     given: Esaú
-  - family: Ramirez-de-la-Rosa
+  - family: Ramırez-de-la-Rosa
     given: Gabriela
   issued:
-  - year: '2018'
+  - year: 2018
   title: Identificando signos de anorexia y depresión en usuarios de redes sociales
   container-title: Research in Computing Science
-  page: '189-202'
+  page: 189-202
   volume: '147'
   issue: '7'
   URL: https://www.rcs.cic.ipn.mx/2018_147_7/Identificando%20signos%20de%20anorexia%20y%20depresion%20en%20usuarios%20de%20redes%20sociales.pdf
@@ -1007,16 +1006,16 @@ references:
   author:
   - family: Hernández Ambrocio
     given: Antonio
-  - family: Ramírez de la Rosa
+  - family: Ramı́rez de la Rosa
     given: Gabriela
   - family: VIllatoro Tello
     given: Esaú
   issued:
-  - year: '2018'
+  - year: 2018
   title: Un método para el análisis de sentimientos bajo un enfoque supervisado usando
     recursos léxicos
   container-title: Research in Computing Science
-  page: '221-233'
+  page: 221-233
   volume: '147'
   issue: '6'
 
@@ -1041,13 +1040,13 @@ references:
   - family: Stephanidis
     given: Constantine
   issued:
-  - year: '2019'
+  - year: 2019
   title: Measuring critical reception in kids through consumption of risky challenges
     videos in youtube
   container-title: HCI international 2019 - posters
   publisher: Springer International Publishing
   publisher-place: Cham
-  page: '331-338'
+  page: 331-338
   abstract: This project researches if critical reception facing YouTube content can
     be promoted in children between nine and eleven years old, focusing in analysis,
     evaluation and taking a stand facing the videos of risky challenges. This is an
@@ -1058,24 +1057,24 @@ references:
     do not consume a lot of channels with risky challenges, it is important to enhance
     the ability to take a stand in order to avoid that children hurt themselves.
   URL: https://link.springer.com/chapter/10.1007/978-3-030-23522-2_43
-  ISBN: '978-3-030-23522-2'
+  ISBN: 978-3-030-23522-2
 
 - id: ramirez2019attribute
   type: paper-conference
   author:
-  - family: Ramirez-de-la-Rosa
+  - family: Ramırez-de-la-Rosa
     given: Gabriela
   - family: Villatoro-Tello
     given: Esaú
   - family: Jiménez-Salazar
     given: Héctor
   issued:
-  - year: '2019'
+  - year: 2019
   title: Attribute selection techniques for classification of aggressive tweets
   container-title: Working notes of the iberian languages evaluation forum (IberLEF)
     2019
   publisher: CEUR-WS
-  page: '515-519'
+  page: 515-519
   volume: '2421'
   URL: '"http://ceur-ws.org/Vol-2421/MEX-A3T_paper_4.pdf"'
 
@@ -1084,14 +1083,92 @@ references:
   author:
   - family: Rosas-Quezada
     given: Érika S
+  - family: Ramı́rez-de-la-Rosa
+    given: Gabriela
+  - family: Villatoro-Tello
+    given: Esaú
+  issued:
+  - year: 2020
+  title: Predicting consumers engagement on facebook based on what and how companies
+    write
+  container-title: Journal of Intelligent & Fuzzy Systems
+  page: 2365-2377
+  volume: '39'
+  issue: '2'
+  note: https://arxiv.org/abs/1909.09914
+  URL: 10.3233/JIFS-179897
+
+- id: villatoro2020idiap
+  type: paper-conference
+  author:
+  - family: Villatoro-Tello
+    given: Esaú
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  - family: Kumar
+    given: Sanjit
+  - family: Parida
+    given: Shantipriya
+  - family: Motlicek
+    given: Petr
+  issued:
+  - year: 2020
+  title: Idiap and uam participation at mex-a3t evaluation campaign
+  container-title: In proceedings of the iberian languages evaluation forum (iberlef
+    2020)
+  publisher: CEUR-WS
+  page: 252-257
+  volume: '2664'
+  URL: '"http://ceur-ws.org/Vol-2664/mexa3t_paper3.pdf"'
+
+- id: villatoro2021latefusion
+  type: paper-conference
+  author:
+  - family: Villatoro-Tello
+    given: Esaú
+  - family: Dubagunta
+    given: S. Pavankumar
+  - family: Fritsch
+    given: Julian
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  - family: Motlicek
+    given: Petr
+  - family: Magimai
+    given: Mathew
+  issued:
+  - year: 2021
+  title: Late fusion of the available lexicon and raw waveform-based acoustic modeling
+    for depression and dementia recognition
+  container-title: To appear in proceedings of the interspeech 2021
+
+- id: arias2021analisis
+  type: article-journal
+  author:
+  - family: Arias Romero
+    given: Luis Armando
   - family: Ramírez-de-la-Rosa
     given: Gabriela
   - family: Villatoro-Tello
     given: Esaú
   issued:
-  - year: '2019'
-  title: Predicting consumers engagement on facebook based on what and how companies
-    write
-  container-title: arXiv preprint arXiv:1909.09914
-  note: https://arxiv.org/abs/1909.09914
+  - year: 2021
+  title: Análisis y seguimiento de tópicos en las conferencias matutinas del presidente
+    de méxico
+  container-title: To apper in Research in Computing Science
+
+- id: roldan2021construccion
+  type: article-journal
+  author:
+  - family: Roldán Juárez
+    given: Eduardo Enrique
+  - family: Ramírez-de-la-Rosa
+    given: Gabriela
+  - family: Rivero-Moreno
+    given: Carlos Joel
+  issued:
+  - year: 2021
+  title: Construcción de un modelo automático para la detección de armas en el transporte
+    público
+  container-title: To apper in Research in Computing Science
 ...
