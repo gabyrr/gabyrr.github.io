@@ -1,3 +1,5 @@
+---
+references:
 - ISBN: 978-3-642-14770-8
   URL: https://link.springer.com/chapter/10.1007/978-3-642-14770-8_34
   abstract: Crosslingual text classification consists of exploiting labeled documents
@@ -1248,4 +1250,5 @@
     personality identification
   type: article-journal
   volume: '79'
+...
 
