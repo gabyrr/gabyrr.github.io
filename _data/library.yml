@@ -1,5 +1,4 @@
 ---
-nocite: "[@*]"
 references:
 - abstract: Crosslingual text classification consists of exploiting
     labeled documents in a source language to classify documents in a
