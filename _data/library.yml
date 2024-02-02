@@ -1,6 +1,8 @@
 ---
+nocite: "[@*]"
 references:
-- abstract: Crosslingual text classification consists of exploiting
+- id: ramirez2010using
+  abstract: Crosslingual text classification consists of exploiting
     labeled documents in a source language to classify documents in a
     different target language. In addition to the evident translation
     problem, this task also faces some difficulties caused by the
@@ -35,8 +37,7 @@ references:
     given: Eiríkur
   - family: Helgadóttir
     given: Sigrún
-  id: ramirez2010using
-  isbn: 978-3-642-14770-8
+    isbn: 978-3-642-14770-8
   issued: 2010
   page: 305-313
   publisher: Springer Berlin Heidelberg
@@ -46,7 +47,8 @@ references:
   type: paper-conference
   url: "https://link.springer.com/chapter/10.1007/978-3-642-14770-8_34"
   
-- abstract: During the last decades the Web has become the greatest
+- id: ramirez2013document
+  abstract: During the last decades the Web has become the greatest
     repository of digital information. In order to organize all this
     information, several text categorization methods have been
     developed, achieving accurate results in most cases and in very
@@ -81,7 +83,6 @@ references:
     given: Luis
   container-title: Language Resources and Evaluation
   doi: 10.1007/s10579-012-9192-1
-  id: ramirez2013document
   issn: 1574-0218
   issue: 1
   issued: 2013-03-01
@@ -93,7 +94,8 @@ references:
   url: "https://doi.org/10.1007/s10579-012-9192-1"
   volume: 47
   
-- abstract: Current text classification methods are mostly based on a
+- id: ramirez2010enhancing
+  abstract: Current text classification methods are mostly based on a
     supervised approach, which require a large number of examples to
     build models accurate. Unfortunately, in several tasks training sets
     are extremely small and their generation is very expensive. In order
@@ -121,7 +123,6 @@ references:
   editor:
   - family: Gelbukh
     given: Alexander
-  id: ramirez2010enhancing
   isbn: 978-3-642-12116-6
   issued: 2010
   page: 627-637
@@ -131,215 +132,5 @@ references:
     test set
   type: paper-conference
   url: "https://link.springer.com/chapter/10.1007/978-3-642-12116-6_53"
-  
-- author:
-  - family: Ramirez-De-La-Rosa
-    given: Gabriela
-  - family: Solorio
-    given: Thamar
-  - family: Liu
-    given: Yang
-  - family: Bedore
-    given: Lisa
-  - family: Montes-y-Gómez
-    given: Manuel
-  - family: México
-    given: INAOE
-  - family: Iglesias
-    given: Aquiles
-  - family: Pena
-    given: Elizabeth
-  container-title: on Iberian Cross-Language Natural Language
-    Processings Tasks (ICL 2011)
-  id: ramirez2011language
-  issued: 2011
-  page: 64
-  title: "Language dominance prediction in spanish-english bilingual
-    children using syntactic information: A first approximation"
-  title-short: Language dominance prediction in spanish-english
-    bilingual children using syntactic information
-  type: article-journal
-  url: "http://ceur-ws.org/Vol-824/paper9.pdf"
-  
-- author:
-  - family: Sapkota
-    given: Upendra
-  - family: Solorio
-    given: Thamar
-  - family: Montes-y-Gómez
-    given: Manuel
-  - family: Ramı́rez-de-la-Rosa
-    given: Gabriela
-  container-title: Proceedings of CLEF
-  id: sapkota2013author
-  issued: 2013
-  title: Author profiling for english and spanish text
-  type: paper-conference
-  
-- author:
-  - family: Villatoro-Tello
-    given: Esaú
-  - family: Ramı́rez-de-la-Rosa
-    given: Gabriela
-  - family: Sánchez-Sánchez
-    given: Christian
-  - family: Jiménez-Salazar
-    given: Héctor
-  - family: Luna-Ramı́rez
-    given: Wulfrano Arturo
-  - family: Rodrı́guez-Lucatero
-    given: Carlos
-  container-title: CLEF (working notes)
-  id: villatoro2014uamclyr
-  issued: 2014
-  page: 1547-1558
-  title: "UAMCLyR at RepLab 2014: Author profiling task."
-  title-short: UAMCLyR at RepLab 2014
-  type: paper-conference
-  url: "https://www.researchgate.net/publication/265727886_UAMCLyR_at_RepLab_2014_Author_Profiling_Task"
-  
-- author:
-  - family: Garcı́a-Rodrı́guez
-    given: Gerardo
-  - family: Ramı́rez-de-la-Rosa
-    given: Gabriela
-  - family: Villatoro-Tello
-    given: Esaú
-  - family: Jiménez-Salazar
-    given: Héctor
-  container-title: Journal of Research in Computing Science
-  id: garcia2014detectando
-  issued: 2014
-  page: 21-32
-  title: Detectando la prioridad de contenidos generados en twitter por
-    medio de n-gramas de palabras
-  type: article-journal
-  volume: 74
-  
-- abstract: "Classifying malware into correct families is an important
-    task for anti-virus vendors. Currently, only some of them will
-    recognize a particular malware. Even when they do, they either
-    classify them into different families or use a generic family name,
-    which does not provide much information. Our method for malware
-    family identification is based on the observation that closely
-    related malware have heavy overlap of strings. We first created two
-    kinds of prototypes from printable strings in the malware: one using
-    term frequency--inverse document frequency (tf-idf) and the other
-    using the prominent strings extracted from the vocabulary. We then
-    used these prototypes for classification. We achieved an accuracy of
-    91.02 % by considering the entire vocabulary and an accuracy of
-    80.52 % by considering 20 prominent strings for each malware family.
-    Our accuracy is high enough for our system to be used to classify
-    even those malware that can confuse the anti-virus vendors."
-  author:
-  - family: Shrestha
-    given: Prasha
-  - family: Maharjan
-    given: Suraj
-  - dropping-particle: de la
-    family: Rosa
-    given: Gabriela Ramírez
-  - family: Sprague
-    given: Alan
-  - family: Solorio
-    given: Thamar
-  - family: Warner
-    given: Gary
-  container-title: Advances in artificial intelligence -- IBERAMIA 2014
-  editor:
-  - family: Bazzan
-    given: Ana L. C.
-  - family: Pichara
-    given: Karim
-  id: shrestha2014using
-  isbn: 978-3-319-12027-0
-  issued: 2014
-  page: 686-697
-  publisher: Springer International Publishing
-  publisher-place: Cham
-  title: Using string information for malware family identification
-  type: paper-conference
-  url: "https://link.springer.com/chapter/10.1007/978-3-319-12027-0_55"
-  
-- abstract: Online communities are filled with comments of loyal readers
-    or first-time viewers, that are constantly creating and sharing
-    information at an unprecedented level, resulting in millions of
-    messages containing opinions, ideas, needs and beliefs of Internet
-    users. Therefore, businesses companies are very interested in
-    finding influential users and encouraging them to create positive
-    influence. Influential users represent users with the ability to
-    influence individual's attitudes in a desired way with relative
-    frequency. We present an empirical analysis on influential users
-    identification problem in Twitter. Our proposed approach considers
-    that the influential level of users can be detected by considering
-    its communication patterns, by means of particular writing style
-    features as well as behavioral features. Performed experiments on
-    more that 7000 users profiles, indicate that it is possible to
-    automatically identify influential users among the members of a
-    social networking community, and also it obtains competitive results
-    against several state-of-the-art methods.
-  author:
-  - family: Ramírez-de-la-Rosa
-    given: Gabriela
-  - family: Villatoro-Tello
-    given: Esaú
-  - family: Jiménez-Salazar
-    given: Héctor
-  - family: Sánchez-Sánchez
-    given: Christian
-  container-title: Human-inspired computing and its applications
-  editor:
-  - family: Gelbukh
-    given: Alexander
-  - family: Espinoza
-    given: Félix Castro
-  - family: Galicia-Haro
-    given: Sofía N.
-  id: ramirez2014towards
-  isbn: 978-3-319-13647-9
-  issued: 2014
-  page: 245-256
-  publisher: Springer International Publishing
-  publisher-place: Cham
-  title: Towards automatic detection of user influence in twitter by
-    means of stylistic and behavioral features
-  type: paper-conference
-  url: "https://link.springer.com/chapter/10.1007/978-3-319-13647-9_23"
-  
-- author:
-  - family: Ramı́rez-de-la-Rosa
-    given: Adriana Gabriela
-  id: ramirez2010clasificacion
-  issued: 2010
-  publisher: Instituto Nacional de Astrofı́sica, Óptica y Electrónica
-  title: Clasificacion de textos utilizando informacion inherente al
-    conjunto a clasificar
-    
-- author:
-  - family: Ramı́rez de la Rosa
-    given: Gabriela
-  - family: Solorio
-    given: Thamar
-  - family: Montes
-    given: Manuel
-  - family: Liu
-    given: Yang
-  - family: Bedore
-    given: Lisa
-  - family: Peña
-    given: Elizabeth
-  - family: Iglesias
-    given: Aquiles
-  container-title: Proceedings of the 2013 workshop on biomedical
-    natural language processing
-  id: ramirez2013exploring
-  issued: 2013-08
-  page: 89-97
-  publisher: Association for Computational Linguistics
-  publisher-place: Sofia, Bulgaria
-  title: Exploring word class n-grams to measure language development in
-    children
-  type: paper-conference
-  url: "https://www.aclweb.org/anthology/W13-1911"
 ---
 
