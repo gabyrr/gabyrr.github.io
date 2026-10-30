@@ -1,9 +1,8 @@
 ---
 permalink: /
-layout: home_single
+layout: page_bio
 author_profile: true
-title: "Hola, Hello"
-#classes: wide
+classes: wide
 #
 # Note: index.md is only valid when not using pagination. If pagination is needed
 # index.html has to be in the root directory.
@@ -11,19 +10,10 @@ title: "Hola, Hello"
 # extra modifications; none was done -- maybe in the future --)
 ---
 
-I'm a researcher/teacher at [Autonomous Metropolitan University (UAM) Cuajimalpa](http://www.cua.uam.mx/)) in the Information Technology Department. I work in Natural Language Processing (NLP) area. My current research interests are in the intersection of NLP and Social Sciences (particularly, Psychology). Broadly, I'm interested in developing methods and new representations for texts to help in the diagnosis of mental illnesses. For instance, I work in author profiling problems, such as personality identification, and depression and anorexia identification from texts.
+En el 2025 me uní a la reciente creada Escuela Nacional de Estudios Superiores Unidad Oaxaca ([ENES Oaxaca](https://www.eneso.unam.mx/)), donde colaboro como profesora a los estudiantes de la Licenciatura en Informática. Antes, trabajé durante 10 años en la [Universidad Autómoma Metropolitana, Unidad Cuajimalpa](http://www.cua.uam.mx/) donde formé parte del Grupo de Investigación [Lenguaje y Razonamiento](https://x.com/LyR_UAMC) que coordiné de 2017 al 2021. 
 
-I'm a member of the [Language and Reasoning Research Group ](http://lyr.cua.uam.mx/)) at UAM-Cuajimalpa since 2013. I'm an external member of the Laboratory on Language Technologies [LabTL](https://ccc.inaoep.mx/laboratorios/labtl.php) of the Computational Sciences Department at the National Institute of Astrophysics, Optics and Electronics (INAOE) Mexico since 2008. I'm also a member of the Mexican Society of Artificial Intelligence SMIA, the Mexican Association for Natural Language Processing [AMPLN](http://ampln.mx/portal/inicio), and the Language Technologies Thematic Network [RedTTL](http://redttl.mx/).
+Mi área de investigación cae en la intersección entre Procesamiento de Lenguaje Natural (subcampo de la Inteligencia Artificial), y Ciencias Sociales---particularmente Psicología. Estoy interesada en desarrollar métodos y nuevas representaciones de textos para ayudar en el diagnóstico de trastornos mentales. 
 
-## Get in touch
+Durante mi labor como profesora, uno de mis objetivos ha sido acercar a jóvenes a la investigación científica en Inteligencia Artificial. Durante mi trayectora docente he tenido la oportunidad de realizar proyectos con impacto social. Algunos de ellos han tenido la oportunidad de presentar sus trabajos en diversas conferencias Internacionales y Nacionales.
 
-> :mailbox:
-> Departamento de Tecnologías de la Información <br/>
-> Universidad Autónoma Metropolitana Unidad Cuajimalpa <br/>
-> Torre III, 5to. piso. Avenida Vasco de Quiroga 4871 <br/>
-> Colonia Santa Fé Cuajimalpa. Delegación Cuajimalpa de Morelos, <br/>
-> C.P. 05348, Mexico City
->
-> :e-mail: **gramirez** at **cua** dot **uam** dot **mx**
->
-> :phone:+52 (55) 5814-6500 ext: 2948
+

@@ -7,130 +7,126 @@
 #
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Gabriela Ramírez-de-la-Rosa
-email: gramirez@correo.cua.uam.mx
-description: >- # this means to ignore newlines until "baseurl:"   Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-twitter_username: cafe_con_pan
-github_username: gabyrr
-minimal_mistakes_skin: "dow" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# show master head
-show_header: false
+# Site Settings
+locale                   : "es-MX"
 
-search: false
+title: Gabriela Ramírez de la Rosa
+title_separator          : " : "
+subtitle                 : Científica | Profesora | Humana
+name                     : "G. Ram"
+email: gabriela.ramirez@unam.edu
+description: >- # this means to ignore newlines until "baseurl:" Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for   Google search results) and in your feed.xml site description.
+  Profesora e Investigadora | 
+  Procesamiento de Lenguaje Natural |
+  Inteligencia Artificial |
+  Oaxaca, México.
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url : "https://gabyrr.github.io/"  #
+
+github_username:  gabyrr
+author:
+  name   : "Gabriela Ramírez de la Rosa"
+  avatar : "/assets/images/bio-gaby19.jpg" 
+  bio    : "Investigadora en Procesamiento del Lenguaje Natural en Oaxaca."
+  email: gabriela.ramirez@unam.edu
+  emailof: gabriela[punto]ramirez[arroba]unam[punto]edu
+
 
 # Build settings
-markdown: kramdown
-#remote_theme: mmistakes/minimal-mistakes
-remote_theme: "mmistakes/minimal-mistakes@4.16.6"
-# Outputting
-permalink: /:categories/:title/
-#paginate: 5 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+theme: minima
+minima:
+  skin: auto
+  
+  nav_pages:
+     - _pages/index.md
+     - _pages/publicaciones.md
+     - _pages/estudiantes.md 
+     - _pages/investigacion.md 
+  
+  show_excerpts: false
 
-include:
-  - _pages
+  date_format: "%d-%b-%Y"
+
+  social_links:
+     - title: ORCID
+       icon: orcid
+       url: "https://orcid.org/0000-0003-4730-5613"
+     - title: Google Scholar
+       icon: google-scholar
+       url: "https://scholar.google.co.uk/citations?user=zdxJn8QAAAAJ&hl=en"
+     - title: ResearchGate
+       icon: researchgate
+       url: "https://www.researchgate.net/profile/Gabriela-Ramirez-De-La-Rosa"
+     - title: Bluesky
+       icon: square-bluesky  
+       url: "https://bsky.app/profile/cafeconpan.bsky.social"
+  hide_site_feed_link: false
+
+
+plugins:
+  - jekyll-feed
+
+sass:
+  quiet_deps: true
+  silence_deprecations: [import]
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
 # exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
 #   - Gemfile
 #   - Gemfile.lock
-#   - node_modules
+#   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Plugins (previously gems:)
+  
+include:
+  - _pages
+
+## Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+## Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
+#  #- jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
-  - jekyll-gist
+#  - jekyll-gist
   - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+#  - jekyll-include-cache
+  - jekyll-seo-tag
 
-author:
-  name   : "Gabriela Ramírez de la Rosa"
-  avatar : "/assets/images/bio-gaby19.jpg" #"/assets/images/bio-photo.jpg"
-  bio    : "Natural Language Processing Researcher in Mexico City. Oaxaqueña."
-  #links:
-  #  - label: "Website"
-  #    icon: "fas fa-fw fa-link"
-  #    url: "https://"
-  #  - label: "Twitter"
-  #    icon: "fab fa-fw fa-twitter-square"
-  #    url: "https://twitter.com/cafe_con_pan"
-  #  - label: "GitHub"
-  #    icon: "fab fa-fw fa-github"
-  #    url: "https://github.com/gabyrr"
-  #  - label: "Google Scholar"
-  #    icon: "fab fa-fw fa-google"
-  #    url: "https://scholar.google.co.uk/citations?user=zdxJn8QAAAAJ"
+ # Outputting
+permalink: /blog/:year/:month/:title.html # /:categories/:title/
+timezone: "CST" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-footer:
-  links:
-    - label: "Google Scholar"
-      icon: "fab fa-fw fa-google"
-      url: "https://scholar.google.co.uk/citations?user=zdxJn8QAAAAJ&hl=en"
-    - label: "ResearchGate"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.researchgate.net/profile/Gabriela_Ramirez-de-la-Rosa"
-    - label: "DBPL"
-      icon: "fas fa-fw fa-link"
-      url: "http://dblp.uni-trier.de/pers/hd/r/Ram=iacute=rez=de=la=Rosa:Gabriela"
-    - label: "LyR"
-      icon: "fas fa-fw fa-link"
-      url: "http://lyr.cua.uam.mx/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/cafe_con_pan"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/gabyrr"
-    #- label: "Google Scholar"
-    #  icon: "fab fa-fw fa-google"
-    #  url: "https://scholar.google.co.uk/citations?user=zdxJn8QAAAAJ"
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  # _nav
-  - scope:
-      path: ""
-      type: page
-    values:
-      sidebar:
-        nav: "sidemain"
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
