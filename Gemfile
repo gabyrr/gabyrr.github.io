@@ -16,8 +16,11 @@ gem "minima", "~> 2.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "github-pages"
+<<<<<<< HEAD
   gem "github-pages"
   gem "github-pages"
+=======
+>>>>>>> 012ccd2 (v2.0)
   gem "jekyll-feed", "~> 0.12"
 end
 
